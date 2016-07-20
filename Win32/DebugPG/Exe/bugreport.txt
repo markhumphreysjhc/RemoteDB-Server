@@ -1,0 +1,894 @@
+date/time          : 2015-10-01, 02:59:29, 830ms
+computer name      : PLUSXPS
+user name          : Giampiero
+registered owner   : Giampiero
+operating system   : Windows 8.1 Tablet PC x64 build 9600
+system language    : Italian
+system up time     : 6 days 16 hours
+program up time    : 17 seconds
+processors         : 8x Intel(R) Core(TM) i7-4712HQ CPU @ 2.30GHz
+physical memory    : 8190/16287 MB (free/total)
+free disk space    : (C:) 183,42 GB
+display mode       : 1536x864, 32 bit
+process id         : $1618
+allocated memory   : 72,60 MB
+largest free block : 1,15 GB
+command line       : "C:\Apps\GestioneFS\RemoteDB Server\Win32\DebugPG\Exe\RemoteDBServer.exe" /gui
+executable         : RemoteDBServer.exe
+exec. date/time    : 2015-10-01 02:59
+version            : 1.0.0.0
+compiled with      : Delphi XE8
+madExcept version  : 4.0.12
+callstack crc      : $f0379b76, $715a8d65, $715a8d65
+count              : 3
+exception number   : 1
+exception class    : EHttpSysSessionException
+exception message  : Could not add the following Url to the server. Be sure that you have reserved the Url in Http.Sys with proper permissions. Url: http://+:2001/DBApp/ Error: Accesso negato.
+
+main thread ($1d20):
+00788bef +16f RemoteDBServer.exe Sparkle.HttpSys.Session  178 +17 THttpSysSession.Start
+0078bb6a +052 RemoteDBServer.exe Sparkle.HttpSys.Server   149  +2 TCustomHttpSysServer.InternalStart
+0078bca8 +010 RemoteDBServer.exe Sparkle.HttpSys.Server   205  +2 TCustomHttpSysServer.Start
+00ff4ce2 +40a RemoteDBServer.exe WorkerThread             349 +67 TdmWorkerThread.StartServer
+0132e634 +070 RemoteDBServer.exe ServerMainForm           119  +4 TfrmServer.aStartExecute
+0053fcdf +00f RemoteDBServer.exe System.Classes                   TBasicAction.Execute
+005a2816 +086 RemoteDBServer.exe Vcl.ActnList                     TCustomAction.Execute
+0053fb37 +013 RemoteDBServer.exe System.Classes                   TBasicActionLink.Execute
+005bf3b0 +05c RemoteDBServer.exe Vcl.Controls                     TControl.Click
+005e21fa +01e RemoteDBServer.exe Vcl.StdCtrls                     TCustomButton.Click
+0116b803 +087 RemoteDBServer.exe cxButtons               1680  +8 TcxCustomButton.Click
+005e2d08 +010 RemoteDBServer.exe Vcl.StdCtrls                     TCustomButton.CNCommand
+0116bf29 +02d RemoteDBServer.exe cxButtons               1974  +2 TcxCustomButton.CNCommand
+005bee59 +2bd RemoteDBServer.exe Vcl.Controls                     TControl.WndProc
+005c3a01 +5e9 RemoteDBServer.exe Vcl.Controls                     TWinControl.WndProc
+005e1ea4 +06c RemoteDBServer.exe Vcl.StdCtrls                     TButtonControl.WndProc
+0116bea0 +078 RemoteDBServer.exe cxButtons               1955 +11 TcxCustomButton.WndProc
+005bea94 +024 RemoteDBServer.exe Vcl.Controls                     TControl.Perform
+005c3b67 +023 RemoteDBServer.exe Vcl.Controls                     DoControlMsg
+005c45ef +00b RemoteDBServer.exe Vcl.Controls                     TWinControl.WMCommand
+005bee59 +2bd RemoteDBServer.exe Vcl.Controls                     TControl.WndProc
+77a007d4 +034 ntdll.dll                                           KiUserCallbackDispatcher
+005bee59 +2bd RemoteDBServer.exe Vcl.Controls                     TControl.WndProc
+005c3a01 +5e9 RemoteDBServer.exe Vcl.Controls                     TWinControl.WndProc
+005c3020 +02c RemoteDBServer.exe Vcl.Controls                     TWinControl.MainWndProc
+00540a3c +014 RemoteDBServer.exe System.Classes                   StdWndProc
+77a007d4 +034 ntdll.dll                                           KiUserCallbackDispatcher
+773ae4a4 +134 user32.dll                                          SendMessageW
+773addd0 +090 user32.dll                                          CallWindowProcW
+005c3b12 +0e6 RemoteDBServer.exe Vcl.Controls                     TWinControl.DefaultHandler
+0116b8a2 +01a RemoteDBServer.exe cxButtons               1697  +2 TcxCustomButton.DefaultHandler
+005bf81c +010 RemoteDBServer.exe Vcl.Controls                     TControl.WMLButtonUp
+005bee59 +2bd RemoteDBServer.exe Vcl.Controls                     TControl.WndProc
+005c3a01 +5e9 RemoteDBServer.exe Vcl.Controls                     TWinControl.WndProc
+005e1ea4 +06c RemoteDBServer.exe Vcl.StdCtrls                     TButtonControl.WndProc
+0116bea0 +078 RemoteDBServer.exe cxButtons               1955 +11 TcxCustomButton.WndProc
+005c3020 +02c RemoteDBServer.exe Vcl.Controls                     TWinControl.MainWndProc
+00540a3c +014 RemoteDBServer.exe System.Classes                   StdWndProc
+773aa6db +00b user32.dll                                          DispatchMessageW
+006c93a3 +0f3 RemoteDBServer.exe Vcl.Forms                        TApplication.ProcessMessage
+006c93e6 +00a RemoteDBServer.exe Vcl.Forms                        TApplication.HandleMessage
+006c9719 +0c9 RemoteDBServer.exe Vcl.Forms                        TApplication.Run
+01352fcc +070 RemoteDBServer.exe RemoteDBServer            27  +9 initialization
+753e7c02 +022 KERNEL32.DLL                                        BaseThreadInitThunk
+
+thread $2568:
+753e7c02 +22 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $25d4:
+753e7c02 +22 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $15b0:
+004ad1b5 +0d RemoteDBServer.exe madExcept CallThreadProcSafe
+004ad21a +32 RemoteDBServer.exe madExcept ThreadExceptFrame
+753e7c02 +22 KERNEL32.DLL                 BaseThreadInitThunk
+>> created by main thread ($1d20) at:
+75c19e7e +00 combase.dll
+
+thread $1ef0:
+77282b7d +4d KERNELBASE.dll               SleepEx
+7728104a +0a KERNELBASE.dll               Sleep
+004ad1b5 +0d RemoteDBServer.exe madExcept CallThreadProcSafe
+004ad21a +32 RemoteDBServer.exe madExcept ThreadExceptFrame
+753e7c02 +22 KERNEL32.DLL                 BaseThreadInitThunk
+>> created by main thread ($1d20) at:
+7060f198 +00 comctl32.dll
+
+thread $22e8:
+753e7c02 +22 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $1320:
+753e7c02 +22 KERNEL32.DLL  BaseThreadInitThunk
+
+modules:
+00400000 RemoteDBServer.exe   1.0.0.0             C:\Apps\GestioneFS\RemoteDB Server\Win32\DebugPG\Exe
+0f970000 olepro32.dll         6.3.9600.17415      C:\Windows\SYSTEM32
+0fde0000 IdnDL.dll            6.3.9600.17415      C:\Windows\SYSTEM32
+59c80000 DUser.dll            6.3.9600.17415      C:\Windows\SYSTEM32
+59eb0000 FONTSUB.dll          6.3.9600.17415      C:\Windows\SYSTEM32
+5f4f0000 httpapi.dll          6.3.9600.17415      C:\Windows\SYSTEM32
+62eb0000 propsys.dll          7.0.9600.17415      C:\Windows\system32
+6d040000 BtMmHook.dll         12.0.1.200          C:\Program Files\WIDCOMM\Bluetooth Software\SysWOW64
+6d180000 oleacc.dll           7.2.9600.17415      C:\Windows\SYSTEM32
+6d1d0000 gdiplus.dll          6.3.9600.17415      C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.9600.17415_none_dad8722c5bcc2d8f
+6e7d0000 tiptsf.dll           6.3.9600.17415      C:\Program Files (x86)\Common Files\microsoft shared\ink
+704c0000 comctl32.dll         6.10.9600.17810     C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.9600.17810_none_a9edf09f013934e0
+707d0000 usp10.dll            6.3.9600.17415      C:\Windows\SYSTEM32
+707f0000 msimg32.dll          6.3.9600.17415      C:\Windows\SYSTEM32
+70870000 winspool.drv         6.3.9600.17415      C:\Windows\SYSTEM32
+70e10000 atlthunk.dll         6.3.9600.17670      C:\Windows\SYSTEM32
+70e20000 dwmapi.dll           6.3.9600.17415      C:\Windows\system32
+70f50000 WINSTA.dll           6.3.9600.17415      C:\Windows\SYSTEM32
+710d0000 cscapi.dll           6.3.9600.17415      C:\Windows\SYSTEM32
+710e0000 sxs.dll              6.3.9600.17415      C:\Windows\SYSTEM32
+711f0000 Fwpuclnt.dll         6.3.9600.17485      C:\Windows\SYSTEM32
+717a0000 uxtheme.dll          6.3.9600.17415      C:\Windows\system32
+735e0000 WINMMBASE.dll        6.3.9600.17415      C:\Windows\SYSTEM32
+73610000 wsock32.dll          6.3.9600.17415      C:\Windows\SYSTEM32
+73840000 winmm.dll            6.3.9600.17415      C:\Windows\SYSTEM32
+74020000 SHFolder.dll         6.3.9600.17415      C:\Windows\SYSTEM32
+741c0000 bcrypt.dll           6.3.9600.17415      C:\Windows\SYSTEM32
+741e0000 rsaenh.dll           6.3.9600.17415      C:\Windows\system32
+74280000 CRYPTSP.dll          6.3.9600.17415      C:\Windows\SYSTEM32
+742a0000 kernel.appcore.dll   6.3.9600.17415      C:\Windows\SYSTEM32
+74330000 version.dll          6.3.9600.17415      C:\Windows\SYSTEM32
+74510000 SHCORE.DLL           6.3.9600.17666      C:\Windows\SYSTEM32
+746f0000 ntmarta.dll          6.3.9600.17415      C:\Windows\SYSTEM32
+74940000 DEVOBJ.dll           6.3.9600.17415      C:\Windows\SYSTEM32
+74970000 wkscli.dll           6.3.9600.17415      C:\Windows\SYSTEM32
+74990000 srvcli.dll           6.3.9600.17415      C:\Windows\SYSTEM32
+749b0000 netutils.dll         6.3.9600.17415      C:\Windows\SYSTEM32
+749c0000 netapi32.dll         6.3.9600.17415      C:\Windows\SYSTEM32
+749e0000 FaultRep.dll         6.3.9600.17550      C:\Windows\SYSTEM32
+74b80000 WINNSI.DLL           6.3.9600.17415      C:\Windows\SYSTEM32
+74b90000 iphlpapi.dll         6.3.9600.17415      C:\Windows\SYSTEM32
+74bb0000 wtsapi32.dll         6.3.9600.17415      C:\Windows\SYSTEM32
+75150000 bcryptPrimitives.dll 6.3.9600.17415      C:\Windows\SYSTEM32
+751b0000 CRYPTBASE.dll        6.3.9600.17415      C:\Windows\SYSTEM32
+751c0000 SspiCli.dll          6.3.9600.17415      C:\Windows\SYSTEM32
+751e0000 NSI.dll              6.3.9600.17415      C:\Windows\SYSTEM32
+751f0000 sechost.dll          6.3.9600.17734      C:\Windows\SYSTEM32
+753d0000 KERNEL32.DLL         6.3.9600.17415      C:\Windows\SYSTEM32
+75570000 SHLWAPI.dll          6.3.9600.17415      C:\Windows\SYSTEM32
+75620000 IMM32.DLL            6.3.9600.17415      C:\Windows\system32
+75650000 comdlg32.dll         6.3.9600.17415      C:\Windows\SYSTEM32
+756f0000 WS2_32.dll           6.3.9600.17415      C:\Windows\SYSTEM32
+75740000 RPCRT4.dll           6.3.9600.17919      C:\Windows\SYSTEM32
+75800000 oleaut32.dll         6.3.9600.17560      C:\Windows\SYSTEM32
+758a0000 Normaliz.dll         6.3.9600.17415      C:\Windows\SYSTEM32
+758b0000 SETUPAPI.dll         6.3.9600.17415      C:\Windows\SYSTEM32
+75a70000 clbcatq.dll          2001.12.10530.17415 C:\Windows\SYSTEM32
+75b00000 msvcrt.dll           7.0.9600.17415      C:\Windows\SYSTEM32
+75bd0000 combase.dll          6.3.9600.17415      C:\Windows\SYSTEM32
+75d50000 ole32.dll            6.3.9600.17905      C:\Windows\SYSTEM32
+75e80000 gdi32.dll            6.3.9600.17925      C:\Windows\SYSTEM32
+75f90000 shell32.dll          6.3.9600.17824      C:\Windows\SYSTEM32
+77240000 cfgmgr32.dll         6.3.9600.17415      C:\Windows\SYSTEM32
+77280000 KERNELBASE.dll       6.3.9600.17415      C:\Windows\SYSTEM32
+773a0000 user32.dll           6.3.9600.17415      C:\Windows\SYSTEM32
+77500000 PSAPI.DLL            6.3.9600.17415      C:\Windows\SYSTEM32
+77510000 MSCTF.dll            6.3.9600.17706      C:\Windows\SYSTEM32
+777c0000 advapi32.dll         6.3.9600.17415      C:\Windows\SYSTEM32
+779c0000 ntdll.dll            6.3.9600.17936      C:\Windows\SYSTEM32
+
+processes:
+0000 Idle                                0 0    0
+0004 System                              0 0    0
+0180 smss.exe                            0 0    0
+0264 csrss.exe                           0 0    0
+02dc wininit.exe                         0 0    0
+0344 services.exe                        0 0    0
+034c lsass.exe                           0 0    0
+039c svchost.exe                         0 0    0
+03b8 svchost.exe                         0 0    0
+0150 nvvsvc.exe                          0 0    0
+0238 svchost.exe                         0 0    0
+02d4 svchost.exe                         0 0    0
+03c4 svchost.exe                         0 0    0
+0430 igfxCUIService.exe                  0 0    0
+0458 svchost.exe                         0 0    0
+04b8 RtkAudioService64.exe               0 0    0
+05b0 WUDFHost.exe                        0 0    0
+0670 svchost.exe                         0 0    0
+06e0 wlanext.exe                         0 0    0
+06f0 conhost.exe                         0 0    0
+0738 spoolsv.exe                         0 0    0
+0760 svchost.exe                         0 0    0
+0774 svchost.exe                         0 0    0
+042c AERTSr64.exe                        0 0    0
+0638 btwdins.exe                         0 0    0
+0680 svchost.exe                         0 0    0
+0610 DptfParticipantProcessorService.exe 0 0    0
+047c DptfPolicyCriticalService.exe       0 0    0
+064c dasHost.exe                         0 0    0
+0858 ibguard.exe                         0 0    0
+0870 HeciServer.exe                      0 0    0
+088c irstrtsv.exe                        0 0    0
+08bc NvNetworkService.exe                0 0    0
+0944 svchost.exe                         0 0    0
+0958 SupportAssistAgent.exe              0 0    0
+0a00 vmnat.exe                           0 0    0
+0a24 vmnetdhcp.exe                       0 0    0
+0a38 vmware-usbarbitrator64.exe          0 0    0
+0a5c vmware-authd.exe                    0 0    0
+0b9c vmware-hostd.exe                    0 0    0
+0be0 WmiPrvSE.exe                        0 0    0
+0fb0 GoogleCrashHandler.exe              0 0    0
+0fb8 GoogleCrashHandler64.exe            0 0    0
+0cfc PresentationFontCache.exe           0 0    0
+10a0 ibserver.exe                        0 0    0
+11c8 svchost.exe                         0 0    0
+1220 SearchIndexer.exe                   0 0    0
+11e8 svchost.exe                         0 0    0
+1540 WmiPrvSE.exe                        0 0    0
+18c4 dllhost.exe                         0 0    0
+1584 OTBSurvey.exe                       0 0    0
+1350 DDSSvc.exe                          0 0    0
+0970 DFSSvc.exe                          0 0    0
+124c MDLCSvc.exe                         0 0    0
+12bc DellDataVaultWiz.exe                0 0    0
+15ec DellUpService.exe                   0 0    0
+1534 IAStorDataMgrSvc.exe                0 0    0
+070c jhi_service.exe                     0 0    0
+1840 LMS.exe                             0 0    0
+16c0 DellDataVault.exe                   0 0    0
+0984 WmiPrvSE.exe                        0 0    0
+1804 SH4SER~1.EXE                        0 0    0
+153c WUDFHost.exe                        0 0    0
+18f0 csrss.exe                           7 0    0
+13e0 winlogon.exe                        7 0    0
+1e48 dwm.exe                             7 0    0
+2158 nvxdsync.exe                        7 0    0
+16d0 nvvsvc.exe                          7 0    0
+20dc scrncap.exe                         7 9    3   normal
+0f1c RAVBg64.exe                         7 0    0
+08c8 RAVBg64.exe                         7 0    0
+1d84 taskhostex.exe                      7 13   16  normal
+23bc SynTPEnh.exe                        7 107  52  above normal
+1770 explorer.exe                        7 967  736 normal
+1d44 DFSSystrayUI.exe                    7 35   35  normal       C:\Program Files\Dell\Dell Foundation Services
+1958 igfxEM.exe                          7 13   18  normal
+2294 igfxHK.exe                          7 13   13  normal
+2084 igfxTray.exe                        7 12   4   normal
+0db0 TabTip.exe                          7 0    0
+2164 TabTip32.exe                        7 0    0
+21b0 RapidStartConfig.exe                7 0    0
+0418 nvtray.exe                          7 81   5   normal
+0e1c NvBackend.exe                       7 9    9   normal       C:\Program Files (x86)\NVIDIA Corporation\Update Core
+2218 SynTPHelper.exe                     7 0    0
+2360 RtkNGUI64.exe                       7 20   28  normal
+1ac8 RAVBg64.exe                         7 17   15  normal
+11fc RAVBg64.exe                         7 17   13  normal
+172c quickset.exe                        7 22   17  normal
+10cc E_IATIGJE.EXE                       7 21   11  normal
+1d94 GWX.exe                             7 18   9   normal
+1858 BTTray.exe                          7 72   18  normal
+0940 vmware-tray.exe                     7 15   10  normal       C:\Program Files (x86)\VMware\VMware Workstation
+0bf4 BTStackServer.exe                   7 40   8   normal
+1c94 EvernoteClipper.exe                 7 22   11  normal       C:\Program Files (x86)\Evernote\Evernote
+18a8 IAStorIcon.exe                      7 33   14  normal       C:\Program Files\Intel\Intel(R) Rapid Storage Technology
+11f4 RunDll32.exe                        7 15   6   normal       C:\Windows\SysWOW64
+22c4 DellUpTray.exe                      7 72   50  normal       C:\Program Files (x86)\Dell Update
+1f80 WmiPrvSE.exe                        0 0    0
+07e4 AAM Updates Notifier.exe            7 13   8   below normal C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA
+10f0 Evernote.exe                        7 651  234 normal       C:\Program Files (x86)\Evernote\Evernote
+0ce4 EvernoteTray.exe                    7 12   8   normal       C:\Program Files (x86)\Evernote\Evernote
+2324 thunderbird.exe                     7 205  119 normal       C:\Program Files (x86)\Mozilla Thunderbird
+1914 vmware.exe                          7 1762 590 normal       C:\Program Files (x86)\VMware\VMware Workstation
+0d50 vmware-unity-helper.exe             7 15   9   normal       C:\Program Files (x86)\VMware\VMware Workstation
+19dc ekrn.exe                            0 0    0
+2198 egui.exe                            7 251  79  normal
+1904 vmware-vmx.exe                      7 15   19  normal
+19e8 firefox.exe                         7 147  140 normal       C:\Program Files (x86)\Mozilla Firefox
+0270 WinRAR.exe                          7 81   14  normal
+270c WinRAR.exe                          7 81   14  normal
+1d78 WinRAR.exe                          7 81   14  normal
+1d40 splwow64.exe                        7 9    2   normal
+0e80 explorer.exe                        7 256  158 normal
+26b0 PhotosApp.exe                       7 12   28  normal
+24bc RuntimeBroker.exe                   7 41   3   normal
+1c44 bds.exe                             7 2824 990 normal       C:\Program Files (x86)\Embarcadero\Studio\16.0\bin
+0810 notepad++.exe                       7 337  237 normal       C:\Program Files (x86)\Notepad++
+1ca0 taskeng.exe                         0 0    0
+0020 audiodg.exe                         0 0    0
+2468 Taskmgr.exe                         7 0    0
+1618 RemoteDBServer.exe                  7 302  128 normal       C:\Apps\GestioneFS\RemoteDB Server\Win32\DebugPG\Exe
+
+date/time          : 2015-10-01, 03:28:14, 215ms
+computer name      : PLUSXPS
+user name          : Giampiero
+registered owner   : Giampiero
+operating system   : Windows 8.1 Tablet PC x64 build 9600
+system language    : Italian
+system up time     : 6 days 16 hours
+program up time    : 3 minutes 8 seconds
+processors         : 8x Intel(R) Core(TM) i7-4712HQ CPU @ 2.30GHz
+physical memory    : 8184/16287 MB (free/total)
+free disk space    : (C:) 183,38 GB
+display mode       : 1536x864, 32 bit
+process id         : $21ac
+allocated memory   : 87,94 MB
+largest free block : 1,02 GB
+command line       : "C:\Apps\GestioneFS\RemoteDB Server\Win32\DebugPG\Exe\RemoteDBServer.exe" /gui
+executable         : RemoteDBServer.exe
+exec. date/time    : 2015-10-01 03:25
+version            : 1.0.0.0
+compiled with      : Delphi XE8
+madExcept version  : 4.0.12
+callstack crc      : $ede2b12c, $3e86bbfe, $3e86bbfe
+count              : 2
+exception number   : 1
+exception class    : EAccessViolation
+exception message  : Access violation at address 0078B697 in module 'RemoteDBServer.exe'. Read of address 0000001D.
+
+main thread ($2298):
+0078b697 +007 RemoteDBServer.exe Sparkle.HttpSys.Server   135  +0 TCustomHttpSysServer.GetIsRunning
+00ff5324 +010 RemoteDBServer.exe WorkerThread             439  +1 TdmWorkerThread.GetServerIsRunning
+00ff427f +013 RemoteDBServer.exe WorkerThread             229  +1 TdmWorkerThread.dxMemDatabasesCalcFields
+00733d15 +015 RemoteDBServer.exe Data.DB                          TDataSet.DoOnCalcFields
+007323e2 +066 RemoteDBServer.exe Data.DB                          TDataSet.CalculateFields
+00732335 +04d RemoteDBServer.exe Data.DB                          TDataSet.GetCalcFields
+0075147e +02e RemoteDBServer.exe dxmdaset                2973  +4 TdxCustomMemData.GetCalcFields
+0075062d +0f9 RemoteDBServer.exe dxmdaset                2491 +28 TdxCustomMemData.GetRecord
+007314cc +01c RemoteDBServer.exe Data.DB                          TDataSet.GetRecord
+00731fee +056 RemoteDBServer.exe Data.DB                          TDataSet.Resync
+0073355f +04f RemoteDBServer.exe Data.DB                          TDataSet.GotoBookmark
+010dce03 +063 RemoteDBServer.exe cxDBData                2284  +8 TcxDBDataProvider.RestorePos
+010cb4b5 +1c9 RemoteDBServer.exe cxCustomData            8896 +45 LoadData
+010cb5a5 +065 RemoteDBServer.exe cxCustomData            8922  +6 TcxCustomDataController.LoadStorage
+010e2cc4 +020 RemoteDBServer.exe cxDBData                5218  +3 TcxDBDataController.LoadStorage
+010cbb27 +0b7 RemoteDBServer.exe cxCustomData            9149 +20 TcxCustomDataController.UpdateStorage
+010cbd5a +082 RemoteDBServer.exe cxCustomData            9251 +16 TcxCustomDataController.DataChanged
+010d3f9d +01d RemoteDBServer.exe cxCustomData           14372  +2 TcxCustomDataProvider.DataChanged
+010db9ec +1cc RemoteDBServer.exe cxDBData                1626 +53 TcxDBDataLink.DataSetChanged
+00729d06 +0ba RemoteDBServer.exe Data.DB                          TDataLink.DataEvent
+010db807 +00f RemoteDBServer.exe cxDBData                1567  +1 TcxDBDataLink.DataEvent
+0072a30e +05e RemoteDBServer.exe Data.DB                          TDataSource.NotifyLinkTypes
+0072a33e +01e RemoteDBServer.exe Data.DB                          TDataSource.NotifyDataLinks
+0072a36b +023 RemoteDBServer.exe Data.DB                          TDataSource.DataEvent
+0073196a +186 RemoteDBServer.exe Data.DB                          TDataSet.DataEvent
+00731a0f +04f RemoteDBServer.exe Data.DB                          TDataSet.EnableControls
+00fa5851 +089 RemoteDBServer.exe ObjectsMappers          2765  +9 TDataSetHelper.SaveJSONToFile
+0132ece1 +151 RemoteDBServer.exe ServerMainForm           217 +18 TfrmServer.FormDestroy
+00409439 +009 RemoteDBServer.exe System                    22  +0 @BeforeDestruction
+006bea36 +006 RemoteDBServer.exe Vcl.Forms                        TCustomForm.Destroy
+0053e8a2 +052 RemoteDBServer.exe System.Classes                   TComponent.Notification
+00408d24 +008 RemoteDBServer.exe System                    22  +0 TObject.Free
+0053e724 +074 RemoteDBServer.exe System.Classes                   TComponent.DestroyComponents
+006bc919 +035 RemoteDBServer.exe Vcl.Forms                        DoneApplication
+004505b5 +021 RemoteDBServer.exe System.SysUtils                  DoExitProc
+0040a932 +06a RemoteDBServer.exe System                    22  +0 @Halt0
+01353021 +0c5 RemoteDBServer.exe RemoteDBServer            37 +19 initialization
+753e7c02 +022 KERNEL32.DLL                                        BaseThreadInitThunk
+
+thread $d20:
+753e7c02 +22 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $2630 (TFDMoniRemoteSender): <suspended> <priority:2>
+00fbb99c +18 RemoteDBServer.exe FireDAC.Moni.RemoteBase TFDMoniRemoteQueueWorker.Create
+
+thread $22d8:
+753e7c02 +22 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $2784: <priority:1>
+004ad1b5 +0d RemoteDBServer.exe madExcept CallThreadProcSafe
+004ad21a +32 RemoteDBServer.exe madExcept ThreadExceptFrame
+753e7c02 +22 KERNEL32.DLL                 BaseThreadInitThunk
+>> created by thread $d20 at:
+7482d888 +00 mswsock.dll
+
+thread $27a0:
+753e7c02 +22 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $1a80:
+004ad1b5 +0d RemoteDBServer.exe madExcept CallThreadProcSafe
+004ad21a +32 RemoteDBServer.exe madExcept ThreadExceptFrame
+753e7c02 +22 KERNEL32.DLL                 BaseThreadInitThunk
+>> created by main thread ($2298) at:
+75c19e7e +00 combase.dll
+
+thread $24e8:
+77282b7d +4d KERNELBASE.dll               SleepEx
+7728104a +0a KERNELBASE.dll               Sleep
+004ad1b5 +0d RemoteDBServer.exe madExcept CallThreadProcSafe
+004ad21a +32 RemoteDBServer.exe madExcept ThreadExceptFrame
+753e7c02 +22 KERNEL32.DLL                 BaseThreadInitThunk
+>> created by main thread ($2298) at:
+7060f198 +00 comctl32.dll
+
+thread $e0:
+753e7c02 +22 KERNEL32.DLL  BaseThreadInitThunk
+
+modules:
+00400000 RemoteDBServer.exe   1.0.0.0             C:\Apps\GestioneFS\RemoteDB Server\Win32\DebugPG\Exe
+0f970000 olepro32.dll         6.3.9600.17415      C:\Windows\SYSTEM32
+0fde0000 IdnDL.dll            6.3.9600.17415      C:\Windows\SYSTEM32
+10000000 libpq.dll            9.4.4.15193         C:\Apps\GestioneFS\RemoteDB Server\PG Client
+51590000 MSVCR120.dll         12.0.21005.1        C:\Windows\SYSTEM32
+59c80000 DUser.dll            6.3.9600.17415      C:\Windows\SYSTEM32
+59eb0000 FONTSUB.dll          6.3.9600.17415      C:\Windows\SYSTEM32
+5fba0000 LIBEAY32.dll         1.0.1.16            C:\Apps\GestioneFS\RemoteDB Server\PG Client
+61cc0000 intl.dll             0.18.1.0            C:\Apps\GestioneFS\RemoteDB Server\PG Client
+62eb0000 propsys.dll          7.0.9600.17415      C:\Windows\system32
+63f50000 SSLEAY32.dll         1.0.1.16            C:\Apps\GestioneFS\RemoteDB Server\PG Client
+66640000 httpapi.dll          6.3.9600.17415      C:\Windows\SYSTEM32
+6d040000 BtMmHook.dll         12.0.1.200          C:\Program Files\WIDCOMM\Bluetooth Software\SysWOW64
+6d180000 oleacc.dll           7.2.9600.17415      C:\Windows\SYSTEM32
+6d1d0000 gdiplus.dll          6.3.9600.17415      C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.9600.17415_none_dad8722c5bcc2d8f
+6e7d0000 tiptsf.dll           6.3.9600.17415      C:\Program Files (x86)\Common Files\microsoft shared\ink
+704c0000 comctl32.dll         6.10.9600.17810     C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.9600.17810_none_a9edf09f013934e0
+707d0000 usp10.dll            6.3.9600.17415      C:\Windows\SYSTEM32
+707f0000 msimg32.dll          6.3.9600.17415      C:\Windows\SYSTEM32
+70870000 winspool.drv         6.3.9600.17415      C:\Windows\SYSTEM32
+70e10000 atlthunk.dll         6.3.9600.17670      C:\Windows\SYSTEM32
+70e20000 dwmapi.dll           6.3.9600.17415      C:\Windows\system32
+70f50000 WINSTA.dll           6.3.9600.17415      C:\Windows\SYSTEM32
+710d0000 cscapi.dll           6.3.9600.17415      C:\Windows\SYSTEM32
+710e0000 sxs.dll              6.3.9600.17415      C:\Windows\SYSTEM32
+711f0000 Fwpuclnt.dll         6.3.9600.17485      C:\Windows\SYSTEM32
+71240000 rasadhlp.dll         6.3.9600.17415      C:\Windows\System32
+717a0000 uxtheme.dll          6.3.9600.17415      C:\Windows\system32
+735e0000 WINMMBASE.dll        6.3.9600.17415      C:\Windows\SYSTEM32
+73610000 wsock32.dll          6.3.9600.17415      C:\Windows\SYSTEM32
+73840000 winmm.dll            6.3.9600.17415      C:\Windows\SYSTEM32
+73fa0000 DNSAPI.dll           6.3.9600.17481      C:\Windows\SYSTEM32
+74020000 SHFolder.dll         6.3.9600.17415      C:\Windows\SYSTEM32
+741c0000 bcrypt.dll           6.3.9600.17415      C:\Windows\SYSTEM32
+741e0000 rsaenh.dll           6.3.9600.17415      C:\Windows\system32
+74280000 CRYPTSP.dll          6.3.9600.17415      C:\Windows\SYSTEM32
+742a0000 kernel.appcore.dll   6.3.9600.17415      C:\Windows\SYSTEM32
+74330000 version.dll          6.3.9600.17415      C:\Windows\SYSTEM32
+74510000 SHCORE.DLL           6.3.9600.17666      C:\Windows\SYSTEM32
+746f0000 ntmarta.dll          6.3.9600.17415      C:\Windows\SYSTEM32
+74820000 mswsock.dll          6.3.9600.17415      C:\Windows\system32
+74940000 DEVOBJ.dll           6.3.9600.17415      C:\Windows\SYSTEM32
+74970000 wkscli.dll           6.3.9600.17415      C:\Windows\SYSTEM32
+74990000 srvcli.dll           6.3.9600.17415      C:\Windows\SYSTEM32
+749b0000 netutils.dll         6.3.9600.17415      C:\Windows\SYSTEM32
+749c0000 netapi32.dll         6.3.9600.17415      C:\Windows\SYSTEM32
+749e0000 FaultRep.dll         6.3.9600.17550      C:\Windows\SYSTEM32
+74b80000 WINNSI.DLL           6.3.9600.17415      C:\Windows\SYSTEM32
+74b90000 iphlpapi.dll         6.3.9600.17415      C:\Windows\SYSTEM32
+74bb0000 wtsapi32.dll         6.3.9600.17415      C:\Windows\SYSTEM32
+74fd0000 Secur32.dll          6.3.9600.17415      C:\Windows\SYSTEM32
+75150000 bcryptPrimitives.dll 6.3.9600.17415      C:\Windows\SYSTEM32
+751b0000 CRYPTBASE.dll        6.3.9600.17415      C:\Windows\SYSTEM32
+751c0000 SspiCli.dll          6.3.9600.17415      C:\Windows\SYSTEM32
+751e0000 NSI.dll              6.3.9600.17415      C:\Windows\SYSTEM32
+751f0000 sechost.dll          6.3.9600.17734      C:\Windows\SYSTEM32
+753d0000 KERNEL32.DLL         6.3.9600.17415      C:\Windows\SYSTEM32
+75570000 SHLWAPI.dll          6.3.9600.17415      C:\Windows\SYSTEM32
+755c0000 WLDAP32.dll          6.3.9600.17415      C:\Windows\SYSTEM32
+75620000 IMM32.DLL            6.3.9600.17415      C:\Windows\system32
+75650000 comdlg32.dll         6.3.9600.17415      C:\Windows\SYSTEM32
+756f0000 WS2_32.dll           6.3.9600.17415      C:\Windows\SYSTEM32
+75740000 RPCRT4.dll           6.3.9600.17919      C:\Windows\SYSTEM32
+75800000 oleaut32.dll         6.3.9600.17560      C:\Windows\SYSTEM32
+758a0000 Normaliz.dll         6.3.9600.17415      C:\Windows\SYSTEM32
+758b0000 SETUPAPI.dll         6.3.9600.17415      C:\Windows\SYSTEM32
+75a70000 clbcatq.dll          2001.12.10530.17415 C:\Windows\SYSTEM32
+75b00000 msvcrt.dll           7.0.9600.17415      C:\Windows\SYSTEM32
+75bd0000 combase.dll          6.3.9600.17415      C:\Windows\SYSTEM32
+75d50000 ole32.dll            6.3.9600.17905      C:\Windows\SYSTEM32
+75e80000 gdi32.dll            6.3.9600.17925      C:\Windows\SYSTEM32
+75f90000 shell32.dll          6.3.9600.17824      C:\Windows\SYSTEM32
+77240000 cfgmgr32.dll         6.3.9600.17415      C:\Windows\SYSTEM32
+77280000 KERNELBASE.dll       6.3.9600.17415      C:\Windows\SYSTEM32
+773a0000 user32.dll           6.3.9600.17415      C:\Windows\SYSTEM32
+77500000 PSAPI.DLL            6.3.9600.17415      C:\Windows\SYSTEM32
+77510000 MSCTF.dll            6.3.9600.17706      C:\Windows\SYSTEM32
+777c0000 advapi32.dll         6.3.9600.17415      C:\Windows\SYSTEM32
+779c0000 ntdll.dll            6.3.9600.17936      C:\Windows\SYSTEM32
+
+processes:
+0000 Idle                                0 0    0
+0004 System                              0 0    0
+0180 smss.exe                            0 0    0
+0264 csrss.exe                           0 0    0
+02dc wininit.exe                         0 0    0
+0344 services.exe                        0 0    0
+034c lsass.exe                           0 0    0
+039c svchost.exe                         0 0    0
+03b8 svchost.exe                         0 0    0
+0150 nvvsvc.exe                          0 0    0
+0238 svchost.exe                         0 0    0
+02d4 svchost.exe                         0 0    0
+03c4 svchost.exe                         0 0    0
+0430 igfxCUIService.exe                  0 0    0
+0458 svchost.exe                         0 0    0
+04b8 RtkAudioService64.exe               0 0    0
+05b0 WUDFHost.exe                        0 0    0
+0670 svchost.exe                         0 0    0
+06e0 wlanext.exe                         0 0    0
+06f0 conhost.exe                         0 0    0
+0738 spoolsv.exe                         0 0    0
+0760 svchost.exe                         0 0    0
+0774 svchost.exe                         0 0    0
+042c AERTSr64.exe                        0 0    0
+0638 btwdins.exe                         0 0    0
+0680 svchost.exe                         0 0    0
+0610 DptfParticipantProcessorService.exe 0 0    0
+047c DptfPolicyCriticalService.exe       0 0    0
+064c dasHost.exe                         0 0    0
+0858 ibguard.exe                         0 0    0
+0870 HeciServer.exe                      0 0    0
+088c irstrtsv.exe                        0 0    0
+08bc NvNetworkService.exe                0 0    0
+0944 svchost.exe                         0 0    0
+0958 SupportAssistAgent.exe              0 0    0
+0a00 vmnat.exe                           0 0    0
+0a24 vmnetdhcp.exe                       0 0    0
+0a38 vmware-usbarbitrator64.exe          0 0    0
+0a5c vmware-authd.exe                    0 0    0
+0b9c vmware-hostd.exe                    0 0    0
+0be0 WmiPrvSE.exe                        0 0    0
+0fb0 GoogleCrashHandler.exe              0 0    0
+0fb8 GoogleCrashHandler64.exe            0 0    0
+0cfc PresentationFontCache.exe           0 0    0
+10a0 ibserver.exe                        0 0    0
+11c8 svchost.exe                         0 0    0
+1220 SearchIndexer.exe                   0 0    0
+11e8 svchost.exe                         0 0    0
+1540 WmiPrvSE.exe                        0 0    0
+18c4 dllhost.exe                         0 0    0
+1584 OTBSurvey.exe                       0 0    0
+1350 DDSSvc.exe                          0 0    0
+0970 DFSSvc.exe                          0 0    0
+124c MDLCSvc.exe                         0 0    0
+12bc DellDataVaultWiz.exe                0 0    0
+15ec DellUpService.exe                   0 0    0
+1534 IAStorDataMgrSvc.exe                0 0    0
+070c jhi_service.exe                     0 0    0
+1840 LMS.exe                             0 0    0
+16c0 DellDataVault.exe                   0 0    0
+0984 WmiPrvSE.exe                        0 0    0
+1804 SH4SER~1.EXE                        0 0    0
+153c WUDFHost.exe                        0 0    0
+18f0 csrss.exe                           7 0    0
+13e0 winlogon.exe                        7 0    0
+1e48 dwm.exe                             7 0    0
+2158 nvxdsync.exe                        7 0    0
+16d0 nvvsvc.exe                          7 0    0
+20dc scrncap.exe                         7 9    3    normal
+0f1c RAVBg64.exe                         7 0    0
+08c8 RAVBg64.exe                         7 0    0
+1d84 taskhostex.exe                      7 13   17   normal
+23bc SynTPEnh.exe                        7 107  52   above normal
+1770 explorer.exe                        7 1016 718  normal
+1d44 DFSSystrayUI.exe                    7 35   35   normal       C:\Program Files\Dell\Dell Foundation Services
+1958 igfxEM.exe                          7 13   18   normal
+2294 igfxHK.exe                          7 13   13   normal
+2084 igfxTray.exe                        7 12   4    normal
+0db0 TabTip.exe                          7 0    0
+2164 TabTip32.exe                        7 0    0
+21b0 RapidStartConfig.exe                7 0    0
+0418 nvtray.exe                          7 81   5    normal
+0e1c NvBackend.exe                       7 9    9    normal       C:\Program Files (x86)\NVIDIA Corporation\Update Core
+2218 SynTPHelper.exe                     7 0    0
+2360 RtkNGUI64.exe                       7 20   28   normal
+1ac8 RAVBg64.exe                         7 17   15   normal
+11fc RAVBg64.exe                         7 17   13   normal
+172c quickset.exe                        7 22   17   normal
+10cc E_IATIGJE.EXE                       7 21   11   normal
+1d94 GWX.exe                             7 18   9    normal
+1858 BTTray.exe                          7 72   18   normal
+0940 vmware-tray.exe                     7 15   10   normal       C:\Program Files (x86)\VMware\VMware Workstation
+0bf4 BTStackServer.exe                   7 40   8    normal
+1c94 EvernoteClipper.exe                 7 22   11   normal       C:\Program Files (x86)\Evernote\Evernote
+18a8 IAStorIcon.exe                      7 33   14   normal       C:\Program Files\Intel\Intel(R) Rapid Storage Technology
+11f4 RunDll32.exe                        7 15   6    normal       C:\Windows\SysWOW64
+22c4 DellUpTray.exe                      7 72   50   normal       C:\Program Files (x86)\Dell Update
+1f80 WmiPrvSE.exe                        0 0    0
+07e4 AAM Updates Notifier.exe            7 13   8    below normal C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA
+10f0 Evernote.exe                        7 647  234  normal       C:\Program Files (x86)\Evernote\Evernote
+0ce4 EvernoteTray.exe                    7 12   8    normal       C:\Program Files (x86)\Evernote\Evernote
+1914 vmware.exe                          7 1762 590  normal       C:\Program Files (x86)\VMware\VMware Workstation
+0d50 vmware-unity-helper.exe             7 15   9    normal       C:\Program Files (x86)\VMware\VMware Workstation
+19dc ekrn.exe                            0 0    0
+2198 egui.exe                            7 251  75   normal
+1904 vmware-vmx.exe                      7 15   19   normal
+19e8 firefox.exe                         7 149  117  normal       C:\Program Files (x86)\Mozilla Firefox
+0270 WinRAR.exe                          7 81   14   normal
+270c WinRAR.exe                          7 81   14   normal
+1d78 WinRAR.exe                          7 81   14   normal
+0e80 explorer.exe                        7 291  160  normal
+26b0 PhotosApp.exe                       7 12   28   normal
+24bc RuntimeBroker.exe                   7 41   3    normal
+1c44 bds.exe                             7 2903 1025 normal       C:\Program Files (x86)\Embarcadero\Studio\16.0\bin
+0810 notepad++.exe                       7 337  237  normal       C:\Program Files (x86)\Notepad++
+2468 Taskmgr.exe                         7 0    0
+21ac RemoteDBServer.exe                  7 301  129  normal       C:\Apps\GestioneFS\RemoteDB Server\Win32\DebugPG\Exe
+2334 audiodg.exe                         0 0    0
+10e0 WmiApSrv.exe                        0 0    0
+154c WinRAR.exe                          7 158  55   normal
+26c8 taskeng.exe                         0 0    0
+18d0 svchost.exe                         0 0    0
+
+date/time          : 2015-10-01, 03:55:33, 682ms
+computer name      : PLUSXPS
+user name          : Giampiero
+registered owner   : Giampiero
+operating system   : Windows 8.1 Tablet PC x64 build 9600
+system language    : Italian
+system up time     : 6 days 17 hours
+program up time    : 13 seconds
+processors         : 8x Intel(R) Core(TM) i7-4712HQ CPU @ 2.30GHz
+physical memory    : 8167/16287 MB (free/total)
+free disk space    : (C:) 183,38 GB
+display mode       : 1536x864, 32 bit
+process id         : $2508
+allocated memory   : 86,55 MB
+largest free block : 1,15 GB
+command line       : "C:\Apps\GestioneFS\RemoteDB Server\Win32\DebugPG\Exe\RemoteDBServer.exe" /gui
+executable         : RemoteDBServer.exe
+exec. date/time    : 2015-10-01 03:55
+version            : 1.0.0.0
+compiled with      : Delphi XE8
+madExcept version  : 4.0.12
+callstack crc      : $ede2b12c, $13f55e8a, $13f55e8a
+count              : 6
+exception number   : 1
+exception class    : EAccessViolation
+exception message  : Access violation at address 0078B697 in module 'RemoteDBServer.exe'. Read of address 0000001D.
+
+main thread ($1cbc):
+0078b697 +007 RemoteDBServer.exe Sparkle.HttpSys.Server   135  +0 TCustomHttpSysServer.GetIsRunning
+00ff52e8 +010 RemoteDBServer.exe WorkerThread             439  +1 TdmWorkerThread.GetServerIsRunning
+00ff427f +013 RemoteDBServer.exe WorkerThread             229  +1 TdmWorkerThread.dxMemDatabasesCalcFields
+00733d15 +015 RemoteDBServer.exe Data.DB                          TDataSet.DoOnCalcFields
+007323e2 +066 RemoteDBServer.exe Data.DB                          TDataSet.CalculateFields
+00732335 +04d RemoteDBServer.exe Data.DB                          TDataSet.GetCalcFields
+0075147e +02e RemoteDBServer.exe dxmdaset                2973  +4 TdxCustomMemData.GetCalcFields
+0075062d +0f9 RemoteDBServer.exe dxmdaset                2491 +28 TdxCustomMemData.GetRecord
+007314cc +01c RemoteDBServer.exe Data.DB                          TDataSet.GetRecord
+00731fee +056 RemoteDBServer.exe Data.DB                          TDataSet.Resync
+0073355f +04f RemoteDBServer.exe Data.DB                          TDataSet.GotoBookmark
+010dcdc7 +063 RemoteDBServer.exe cxDBData                2284  +8 TcxDBDataProvider.RestorePos
+010cb479 +1c9 RemoteDBServer.exe cxCustomData            8896 +45 LoadData
+010cb569 +065 RemoteDBServer.exe cxCustomData            8922  +6 TcxCustomDataController.LoadStorage
+010e2c88 +020 RemoteDBServer.exe cxDBData                5218  +3 TcxDBDataController.LoadStorage
+010cbaeb +0b7 RemoteDBServer.exe cxCustomData            9149 +20 TcxCustomDataController.UpdateStorage
+010cbd1e +082 RemoteDBServer.exe cxCustomData            9251 +16 TcxCustomDataController.DataChanged
+010d3f61 +01d RemoteDBServer.exe cxCustomData           14372  +2 TcxCustomDataProvider.DataChanged
+010db9b0 +1cc RemoteDBServer.exe cxDBData                1626 +53 TcxDBDataLink.DataSetChanged
+00729d06 +0ba RemoteDBServer.exe Data.DB                          TDataLink.DataEvent
+010db7cb +00f RemoteDBServer.exe cxDBData                1567  +1 TcxDBDataLink.DataEvent
+0072a30e +05e RemoteDBServer.exe Data.DB                          TDataSource.NotifyLinkTypes
+0072a33e +01e RemoteDBServer.exe Data.DB                          TDataSource.NotifyDataLinks
+0072a36b +023 RemoteDBServer.exe Data.DB                          TDataSource.DataEvent
+0073196a +186 RemoteDBServer.exe Data.DB                          TDataSet.DataEvent
+00731a0f +04f RemoteDBServer.exe Data.DB                          TDataSet.EnableControls
+00fa5851 +089 RemoteDBServer.exe ObjectsMappers          2765  +9 TDataSetHelper.SaveJSONToFile
+0132eca5 +151 RemoteDBServer.exe ServerMainForm           217 +18 TfrmServer.FormDestroy
+00409439 +009 RemoteDBServer.exe System                    22  +0 @BeforeDestruction
+006bea36 +006 RemoteDBServer.exe Vcl.Forms                        TCustomForm.Destroy
+004acf91 +019 RemoteDBServer.exe madExcept                        InterceptClassDestroy
+00408d24 +008 RemoteDBServer.exe System                    22  +0 TObject.Free
+0053e724 +074 RemoteDBServer.exe System.Classes                   TComponent.DestroyComponents
+006bc919 +035 RemoteDBServer.exe Vcl.Forms                        DoneApplication
+004505b5 +021 RemoteDBServer.exe System.SysUtils                  DoExitProc
+0040a932 +06a RemoteDBServer.exe System                    22  +0 @Halt0
+01353021 +0c5 RemoteDBServer.exe RemoteDBServer            37 +19 initialization
+753e7c02 +022 KERNEL32.DLL                                        BaseThreadInitThunk
+
+thread $20b0:
+753e7c02 +22 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $1614:
+753e7c02 +22 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $1d24:
+753e7c02 +22 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $154:
+004ad1b5 +0d RemoteDBServer.exe madExcept CallThreadProcSafe
+004ad21a +32 RemoteDBServer.exe madExcept ThreadExceptFrame
+753e7c02 +22 KERNEL32.DLL                 BaseThreadInitThunk
+>> created by main thread ($1cbc) at:
+75c19e7e +00 combase.dll
+
+thread $1918:
+77282b7d +4d KERNELBASE.dll               SleepEx
+7728104a +0a KERNELBASE.dll               Sleep
+004ad1b5 +0d RemoteDBServer.exe madExcept CallThreadProcSafe
+004ad21a +32 RemoteDBServer.exe madExcept ThreadExceptFrame
+753e7c02 +22 KERNEL32.DLL                 BaseThreadInitThunk
+>> created by main thread ($1cbc) at:
+7060f198 +00 comctl32.dll
+
+thread $1d68:
+753e7c02 +22 KERNEL32.DLL  BaseThreadInitThunk
+
+modules:
+00400000 RemoteDBServer.exe   1.0.0.0             C:\Apps\GestioneFS\RemoteDB Server\Win32\DebugPG\Exe
+0f970000 olepro32.dll         6.3.9600.17415      C:\Windows\SYSTEM32
+0fde0000 IdnDL.dll            6.3.9600.17415      C:\Windows\SYSTEM32
+59c80000 DUser.dll            6.3.9600.17415      C:\Windows\SYSTEM32
+59eb0000 FONTSUB.dll          6.3.9600.17415      C:\Windows\SYSTEM32
+62eb0000 propsys.dll          7.0.9600.17415      C:\Windows\system32
+66640000 httpapi.dll          6.3.9600.17415      C:\Windows\SYSTEM32
+6d040000 BtMmHook.dll         12.0.1.200          C:\Program Files\WIDCOMM\Bluetooth Software\SysWOW64
+6d180000 oleacc.dll           7.2.9600.17415      C:\Windows\SYSTEM32
+6d1d0000 gdiplus.dll          6.3.9600.17415      C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.9600.17415_none_dad8722c5bcc2d8f
+6e7d0000 tiptsf.dll           6.3.9600.17415      C:\Program Files (x86)\Common Files\microsoft shared\ink
+704c0000 comctl32.dll         6.10.9600.17810     C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.9600.17810_none_a9edf09f013934e0
+707d0000 usp10.dll            6.3.9600.17415      C:\Windows\SYSTEM32
+707f0000 msimg32.dll          6.3.9600.17415      C:\Windows\SYSTEM32
+70870000 winspool.drv         6.3.9600.17415      C:\Windows\SYSTEM32
+70e10000 atlthunk.dll         6.3.9600.17670      C:\Windows\SYSTEM32
+70e20000 dwmapi.dll           6.3.9600.17415      C:\Windows\system32
+70f50000 WINSTA.dll           6.3.9600.17415      C:\Windows\SYSTEM32
+710d0000 cscapi.dll           6.3.9600.17415      C:\Windows\SYSTEM32
+710e0000 sxs.dll              6.3.9600.17415      C:\Windows\SYSTEM32
+711f0000 Fwpuclnt.dll         6.3.9600.17485      C:\Windows\SYSTEM32
+717a0000 uxtheme.dll          6.3.9600.17415      C:\Windows\system32
+735e0000 WINMMBASE.dll        6.3.9600.17415      C:\Windows\SYSTEM32
+73610000 wsock32.dll          6.3.9600.17415      C:\Windows\SYSTEM32
+73840000 winmm.dll            6.3.9600.17415      C:\Windows\SYSTEM32
+74020000 SHFolder.dll         6.3.9600.17415      C:\Windows\SYSTEM32
+741c0000 bcrypt.dll           6.3.9600.17415      C:\Windows\SYSTEM32
+741e0000 rsaenh.dll           6.3.9600.17415      C:\Windows\system32
+74280000 CRYPTSP.dll          6.3.9600.17415      C:\Windows\SYSTEM32
+742a0000 kernel.appcore.dll   6.3.9600.17415      C:\Windows\SYSTEM32
+74330000 version.dll          6.3.9600.17415      C:\Windows\SYSTEM32
+74510000 SHCORE.DLL           6.3.9600.17666      C:\Windows\SYSTEM32
+746f0000 ntmarta.dll          6.3.9600.17415      C:\Windows\SYSTEM32
+74940000 DEVOBJ.dll           6.3.9600.17415      C:\Windows\SYSTEM32
+74970000 wkscli.dll           6.3.9600.17415      C:\Windows\SYSTEM32
+74990000 srvcli.dll           6.3.9600.17415      C:\Windows\SYSTEM32
+749b0000 netutils.dll         6.3.9600.17415      C:\Windows\SYSTEM32
+749c0000 netapi32.dll         6.3.9600.17415      C:\Windows\SYSTEM32
+749e0000 FaultRep.dll         6.3.9600.17550      C:\Windows\SYSTEM32
+74b80000 WINNSI.DLL           6.3.9600.17415      C:\Windows\SYSTEM32
+74b90000 iphlpapi.dll         6.3.9600.17415      C:\Windows\SYSTEM32
+74bb0000 wtsapi32.dll         6.3.9600.17415      C:\Windows\SYSTEM32
+75150000 bcryptPrimitives.dll 6.3.9600.17415      C:\Windows\SYSTEM32
+751b0000 CRYPTBASE.dll        6.3.9600.17415      C:\Windows\SYSTEM32
+751c0000 SspiCli.dll          6.3.9600.17415      C:\Windows\SYSTEM32
+751e0000 NSI.dll              6.3.9600.17415      C:\Windows\SYSTEM32
+751f0000 sechost.dll          6.3.9600.17734      C:\Windows\SYSTEM32
+753d0000 KERNEL32.DLL         6.3.9600.17415      C:\Windows\SYSTEM32
+75570000 SHLWAPI.dll          6.3.9600.17415      C:\Windows\SYSTEM32
+75620000 IMM32.DLL            6.3.9600.17415      C:\Windows\system32
+75650000 comdlg32.dll         6.3.9600.17415      C:\Windows\SYSTEM32
+756f0000 WS2_32.dll           6.3.9600.17415      C:\Windows\SYSTEM32
+75740000 RPCRT4.dll           6.3.9600.17919      C:\Windows\SYSTEM32
+75800000 oleaut32.dll         6.3.9600.17560      C:\Windows\SYSTEM32
+758a0000 Normaliz.dll         6.3.9600.17415      C:\Windows\SYSTEM32
+758b0000 SETUPAPI.dll         6.3.9600.17415      C:\Windows\SYSTEM32
+75a70000 clbcatq.dll          2001.12.10530.17415 C:\Windows\SYSTEM32
+75b00000 msvcrt.dll           7.0.9600.17415      C:\Windows\SYSTEM32
+75bd0000 combase.dll          6.3.9600.17415      C:\Windows\SYSTEM32
+75d50000 ole32.dll            6.3.9600.17905      C:\Windows\SYSTEM32
+75e80000 gdi32.dll            6.3.9600.17925      C:\Windows\SYSTEM32
+75f90000 shell32.dll          6.3.9600.17824      C:\Windows\SYSTEM32
+77240000 cfgmgr32.dll         6.3.9600.17415      C:\Windows\SYSTEM32
+77280000 KERNELBASE.dll       6.3.9600.17415      C:\Windows\SYSTEM32
+773a0000 user32.dll           6.3.9600.17415      C:\Windows\SYSTEM32
+77500000 PSAPI.DLL            6.3.9600.17415      C:\Windows\SYSTEM32
+77510000 MSCTF.dll            6.3.9600.17706      C:\Windows\SYSTEM32
+777c0000 advapi32.dll         6.3.9600.17415      C:\Windows\SYSTEM32
+779c0000 ntdll.dll            6.3.9600.17936      C:\Windows\SYSTEM32
+
+processes:
+0000 Idle                                0 0    0
+0004 System                              0 0    0
+0180 smss.exe                            0 0    0
+0264 csrss.exe                           0 0    0
+02dc wininit.exe                         0 0    0
+0344 services.exe                        0 0    0
+034c lsass.exe                           0 0    0
+039c svchost.exe                         0 0    0
+03b8 svchost.exe                         0 0    0
+0150 nvvsvc.exe                          0 0    0
+0238 svchost.exe                         0 0    0
+02d4 svchost.exe                         0 0    0
+03c4 svchost.exe                         0 0    0
+0430 igfxCUIService.exe                  0 0    0
+0458 svchost.exe                         0 0    0
+04b8 RtkAudioService64.exe               0 0    0
+05b0 WUDFHost.exe                        0 0    0
+0670 svchost.exe                         0 0    0
+06e0 wlanext.exe                         0 0    0
+06f0 conhost.exe                         0 0    0
+0738 spoolsv.exe                         0 0    0
+0760 svchost.exe                         0 0    0
+0774 svchost.exe                         0 0    0
+042c AERTSr64.exe                        0 0    0
+0638 btwdins.exe                         0 0    0
+0680 svchost.exe                         0 0    0
+0610 DptfParticipantProcessorService.exe 0 0    0
+047c DptfPolicyCriticalService.exe       0 0    0
+064c dasHost.exe                         0 0    0
+0858 ibguard.exe                         0 0    0
+0870 HeciServer.exe                      0 0    0
+088c irstrtsv.exe                        0 0    0
+08bc NvNetworkService.exe                0 0    0
+0944 svchost.exe                         0 0    0
+0958 SupportAssistAgent.exe              0 0    0
+0a00 vmnat.exe                           0 0    0
+0a24 vmnetdhcp.exe                       0 0    0
+0a38 vmware-usbarbitrator64.exe          0 0    0
+0a5c vmware-authd.exe                    0 0    0
+0b9c vmware-hostd.exe                    0 0    0
+0be0 WmiPrvSE.exe                        0 0    0
+0fb0 GoogleCrashHandler.exe              0 0    0
+0fb8 GoogleCrashHandler64.exe            0 0    0
+0cfc PresentationFontCache.exe           0 0    0
+10a0 ibserver.exe                        0 0    0
+11c8 svchost.exe                         0 0    0
+1220 SearchIndexer.exe                   0 0    0
+11e8 svchost.exe                         0 0    0
+1540 WmiPrvSE.exe                        0 0    0
+18c4 dllhost.exe                         0 0    0
+1584 OTBSurvey.exe                       0 0    0
+1350 DDSSvc.exe                          0 0    0
+0970 DFSSvc.exe                          0 0    0
+124c MDLCSvc.exe                         0 0    0
+12bc DellDataVaultWiz.exe                0 0    0
+15ec DellUpService.exe                   0 0    0
+1534 IAStorDataMgrSvc.exe                0 0    0
+070c jhi_service.exe                     0 0    0
+1840 LMS.exe                             0 0    0
+16c0 DellDataVault.exe                   0 0    0
+0984 WmiPrvSE.exe                        0 0    0
+1804 SH4SER~1.EXE                        0 0    0
+153c WUDFHost.exe                        0 0    0
+18f0 csrss.exe                           7 0    0
+13e0 winlogon.exe                        7 0    0
+1e48 dwm.exe                             7 0    0
+2158 nvxdsync.exe                        7 0    0
+16d0 nvvsvc.exe                          7 0    0
+20dc scrncap.exe                         7 9    3    normal
+0f1c RAVBg64.exe                         7 0    0
+08c8 RAVBg64.exe                         7 0    0
+1d84 taskhostex.exe                      7 13   16   normal
+23bc SynTPEnh.exe                        7 107  52   above normal
+1770 explorer.exe                        7 1019 728  normal
+1d44 DFSSystrayUI.exe                    7 35   35   normal       C:\Program Files\Dell\Dell Foundation Services
+1958 igfxEM.exe                          7 13   18   normal
+2294 igfxHK.exe                          7 13   13   normal
+2084 igfxTray.exe                        7 12   4    normal
+0db0 TabTip.exe                          7 0    0
+2164 TabTip32.exe                        7 0    0
+21b0 RapidStartConfig.exe                7 0    0
+0418 nvtray.exe                          7 81   5    normal
+0e1c NvBackend.exe                       7 9    9    normal       C:\Program Files (x86)\NVIDIA Corporation\Update Core
+2218 SynTPHelper.exe                     7 0    0
+2360 RtkNGUI64.exe                       7 20   28   normal
+1ac8 RAVBg64.exe                         7 17   15   normal
+11fc RAVBg64.exe                         7 17   13   normal
+172c quickset.exe                        7 22   17   normal
+10cc E_IATIGJE.EXE                       7 21   11   normal
+1d94 GWX.exe                             7 18   9    normal
+1858 BTTray.exe                          7 72   18   normal
+0940 vmware-tray.exe                     7 15   10   normal       C:\Program Files (x86)\VMware\VMware Workstation
+0bf4 BTStackServer.exe                   7 40   8    normal
+1c94 EvernoteClipper.exe                 7 22   11   normal       C:\Program Files (x86)\Evernote\Evernote
+18a8 IAStorIcon.exe                      7 33   14   normal       C:\Program Files\Intel\Intel(R) Rapid Storage Technology
+11f4 RunDll32.exe                        7 15   6    normal       C:\Windows\SysWOW64
+22c4 DellUpTray.exe                      7 72   50   normal       C:\Program Files (x86)\Dell Update
+1f80 WmiPrvSE.exe                        0 0    0
+07e4 AAM Updates Notifier.exe            7 13   8    below normal C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA
+10f0 Evernote.exe                        7 647  234  normal       C:\Program Files (x86)\Evernote\Evernote
+0ce4 EvernoteTray.exe                    7 12   8    normal       C:\Program Files (x86)\Evernote\Evernote
+1914 vmware.exe                          7 1762 590  normal       C:\Program Files (x86)\VMware\VMware Workstation
+0d50 vmware-unity-helper.exe             7 15   9    normal       C:\Program Files (x86)\VMware\VMware Workstation
+19dc ekrn.exe                            0 0    0
+2198 egui.exe                            7 251  75   normal
+1904 vmware-vmx.exe                      7 15   19   normal
+19e8 firefox.exe                         7 158  120  normal       C:\Program Files (x86)\Mozilla Firefox
+0270 WinRAR.exe                          7 81   14   normal
+270c WinRAR.exe                          7 81   14   normal
+1d78 WinRAR.exe                          7 81   14   normal
+0e80 explorer.exe                        7 291  157  normal
+26b0 PhotosApp.exe                       7 12   28   normal
+24bc RuntimeBroker.exe                   7 41   3    normal
+1c44 bds.exe                             7 2914 1019 normal       C:\Program Files (x86)\Embarcadero\Studio\16.0\bin
+0810 notepad++.exe                       7 337  237  normal       C:\Program Files (x86)\Notepad++
+2468 Taskmgr.exe                         7 0    0
+27b8 cmd.exe                             7 0    0    normal
+2168 conhost.exe                         7 24   16   normal
+080c audiodg.exe                         0 0    0
+0cb8 taskeng.exe                         0 0    0
+2508 RemoteDBServer.exe                  7 301  127  normal       C:\Apps\GestioneFS\RemoteDB Server\Win32\DebugPG\Exe
+

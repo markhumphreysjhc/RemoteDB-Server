@@ -1,0 +1,60 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{4543FFC9-6CEC-452A-A766-0406B2CE148F}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="RemoteDBServer.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="RemoteDBClient.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\..\Farmacia\RemoteDBServer (Oracle)\RemoteORADBServer.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="RemoteDBServer">
+        <MSBuild Projects="RemoteDBServer.dproj"/>
+    </Target>
+    <Target Name="RemoteDBServer:Clean">
+        <MSBuild Projects="RemoteDBServer.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="RemoteDBServer:Make">
+        <MSBuild Projects="RemoteDBServer.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="RemoteDBClient">
+        <MSBuild Projects="RemoteDBClient.dproj"/>
+    </Target>
+    <Target Name="RemoteDBClient:Clean">
+        <MSBuild Projects="RemoteDBClient.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="RemoteDBClient:Make">
+        <MSBuild Projects="RemoteDBClient.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="RemoteORADBServer">
+        <MSBuild Projects="..\..\Farmacia\RemoteDBServer (Oracle)\RemoteORADBServer.dproj"/>
+    </Target>
+    <Target Name="RemoteORADBServer:Clean">
+        <MSBuild Projects="..\..\Farmacia\RemoteDBServer (Oracle)\RemoteORADBServer.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="RemoteORADBServer:Make">
+        <MSBuild Projects="..\..\Farmacia\RemoteDBServer (Oracle)\RemoteORADBServer.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="RemoteDBServer;RemoteDBClient;RemoteORADBServer"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="RemoteDBServer:Clean;RemoteDBClient:Clean;RemoteORADBServer:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="RemoteDBServer:Make;RemoteDBClient:Make;RemoteORADBServer:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

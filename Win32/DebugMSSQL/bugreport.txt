@@ -1,0 +1,1465 @@
+date/time          : 2014-11-14, 11:33:06, 669ms
+computer name      : XE7
+user name          : Admin <admin>
+registered owner   : Windows User
+operating system   : Windows 7 Service Pack 1 build 7601
+system language    : English
+system up time     : 3 hours 4 minutes
+program up time    : 29 seconds
+processor          : Intel(R) Core(TM) i7 CPU Q 740 @ 1.73GHz
+physical memory    : 198/2047 MB (free/total)
+free disk space    : (C:) 5,77 GB
+display mode       : 1920x1080, 32 bit
+process id         : $238
+allocated memory   : 38,83 MB
+largest free block : 1,47 GB
+executable         : RemoteDBServer.exe
+exec. date/time    : 2014-11-14 11:32
+version            : 1.0.0.0
+compiled with      : Delphi XE7
+madExcept version  : 4.0.11
+callstack crc      : $5f6e4ef0, $a2f19bd8, $a2f19bd8
+exception number   : 1
+exception class    : Exception
+exception message  : Object factory for class {3E9B315B-F456-4175-A864-B2573C4A2015} is missing. To register it, you can include unit [FireDAC.Stan.Def] into your project.
+
+main thread ($9a0):
+00a0387b +4c3 RemoteDBServer.exe FireDAC.Stan.Factory        ObjFactMissError
+00a03ecc +058 RemoteDBServer.exe FireDAC.Stan.Factory        TFDManager.CreateInterface
+00a0403e +026 RemoteDBServer.exe FireDAC.Stan.Factory        FDCreateInterface
+00a52539 +04d RemoteDBServer.exe FireDAC.Comp.Client         TFDCustomConnection.Create
+00a64f71 +02d RemoteDBServer.exe ServerMainForm       132 +2 TfrmServer.CreateIDBConnection
+00a65d2c +058 RemoteDBServer.exe ServerMainForm       229 +3 TfrmServer.StartServer
+00a64eab +00f RemoteDBServer.exe ServerMainForm       107 +1 TfrmServer.aStartExecute
+0053f7fb +00f RemoteDBServer.exe System.Classes              TBasicAction.Execute
+005a463e +086 RemoteDBServer.exe Vcl.ActnList                TCustomAction.Execute
+0053f67f +013 RemoteDBServer.exe System.Classes              TBasicActionLink.Execute
+005bca78 +05c RemoteDBServer.exe Vcl.Controls                TControl.Click
+005dadb2 +01e RemoteDBServer.exe Vcl.StdCtrls                TCustomButton.Click
+005db8c0 +010 RemoteDBServer.exe Vcl.StdCtrls                TCustomButton.CNCommand
+005bc521 +2bd RemoteDBServer.exe Vcl.Controls                TControl.WndProc
+005c0fee +5ce RemoteDBServer.exe Vcl.Controls                TWinControl.WndProc
+005daa5c +06c RemoteDBServer.exe Vcl.StdCtrls                TButtonControl.WndProc
+005bc15c +024 RemoteDBServer.exe Vcl.Controls                TControl.Perform
+005c1153 +023 RemoteDBServer.exe Vcl.Controls                DoControlMsg
+005c1bdb +00b RemoteDBServer.exe Vcl.Controls                TWinControl.WMCommand
+005bc521 +2bd RemoteDBServer.exe Vcl.Controls                TControl.WndProc
+005c0fee +5ce RemoteDBServer.exe Vcl.Controls                TWinControl.WndProc
+005c0628 +02c RemoteDBServer.exe Vcl.Controls                TWinControl.MainWndProc
+005404f0 +014 RemoteDBServer.exe System.Classes              StdWndProc
+7710702b +02b ntdll.dll                                      KiUserCallbackDispatcher
+760f557d +044 USER32.dll                                     SendMessageW
+760f1b52 +016 USER32.dll                                     CallWindowProcW
+005c10fe +0e6 RemoteDBServer.exe Vcl.Controls                TWinControl.DefaultHandler
+005bcee4 +010 RemoteDBServer.exe Vcl.Controls                TControl.WMLButtonUp
+0068c3f7 +087 RemoteDBServer.exe Vcl.Forms                   TApplication.DispatchAction
+005bc521 +2bd RemoteDBServer.exe Vcl.Controls                TControl.WndProc
+005c0fee +5ce RemoteDBServer.exe Vcl.Controls                TWinControl.WndProc
+005daa5c +06c RemoteDBServer.exe Vcl.StdCtrls                TButtonControl.WndProc
+005c0628 +02c RemoteDBServer.exe Vcl.Controls                TWinControl.MainWndProc
+005404f0 +014 RemoteDBServer.exe System.Classes              StdWndProc
+760fcc6b +00a USER32.dll                                     DispatchMessageW
+0068a773 +0f3 RemoteDBServer.exe Vcl.Forms                   TApplication.ProcessMessage
+0068a7b6 +00a RemoteDBServer.exe Vcl.Forms                   TApplication.HandleMessage
+0068aae9 +0c9 RemoteDBServer.exe Vcl.Forms                   TApplication.Run
+00a75609 +051 RemoteDBServer.exe RemoteDBServer        19 +5 initialization
+76aaee1a +010 kernel32.dll                                   BaseThreadInitThunk
+
+thread $698:
+77106a42 +0a ntdll.dll     NtWaitForMultipleObjects
+76aaee1a +10 kernel32.dll  BaseThreadInitThunk
+
+thread $2d4:
+77106a72 +0a ntdll.dll     NtWaitForWorkViaWorkerFactory
+76aaee1a +10 kernel32.dll  BaseThreadInitThunk
+
+thread $934:
+77106a72 +0a ntdll.dll     NtWaitForWorkViaWorkerFactory
+76aaee1a +10 kernel32.dll  BaseThreadInitThunk
+
+thread $cfc:
+77106a72 +0a ntdll.dll     NtWaitForWorkViaWorkerFactory
+76aaee1a +10 kernel32.dll  BaseThreadInitThunk
+
+modules:
+00400000 RemoteDBServer.exe 1.0.0.0            C:\Apps\GestioneFS\Server Remote DB\Win32\Debug
+64260000 FaultRep.dll       6.1.7601.17514     C:\Windows\system32
+6e150000 wsock32.dll        6.1.7600.16385     C:\Windows\system32
+6ec40000 msimg32.dll        6.1.7600.16385     C:\Windows\system32
+710c0000 winspool.drv       6.1.7601.17514     C:\Windows\system32
+73910000 wtsapi32.dll       6.1.7601.17514     C:\Windows\system32
+73950000 dwmapi.dll         6.1.7600.16385     C:\Windows\system32
+73b00000 ntmarta.dll        6.1.7600.16385     C:\Windows\system32
+73cb0000 gdiplus.dll        6.1.7601.18455     C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.7601.18455_none_72d576ad8665e853
+73e40000 uxtheme.dll        6.1.7600.16385     C:\Windows\system32
+73e80000 propsys.dll        7.0.7601.17514     C:\Windows\system32
+73ff0000 comctl32.dll       6.10.7601.17514    C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_41e6975e2bd6f2b2
+74560000 version.dll        6.1.7600.16385     C:\Windows\system32
+74f30000 SspiCli.dll        6.1.7601.18443     C:\Windows\system32
+74fa0000 CRYPTBASE.dll      6.1.7600.16385     C:\Windows\system32
+75020000 WINSTA.dll         6.1.7601.18540     C:\Windows\system32
+75190000 DEVOBJ.dll         6.1.7600.16385     C:\Windows\system32
+752f0000 KERNELBASE.dll     6.1.7601.18409     C:\Windows\system32
+753b0000 CFGMGR32.dll       6.1.7601.17514     C:\Windows\system32
+753e0000 shell32.dll        6.1.7601.18517     C:\Windows\system32
+76040000 USP10.dll          1.626.7601.18454   C:\Windows\system32
+760e0000 USER32.dll         6.1.7601.17514     C:\Windows\system32
+761b0000 msvcrt.dll         7.0.7601.17744     C:\Windows\system32
+76260000 CLBCatQ.DLL        2001.12.8530.16385 C:\Windows\system32
+76440000 SETUPAPI.dll       6.1.7601.17514     C:\Windows\system32
+76670000 comdlg32.dll       6.1.7601.17514     C:\Windows\system32
+766f0000 LPK.dll            6.1.7601.18177     C:\Windows\system32
+768e0000 GDI32.dll          6.1.7601.18577     C:\Windows\system32
+76930000 advapi32.dll       6.1.7601.18247     C:\Windows\system32
+769d0000 oleaut32.dll       6.1.7601.18640     C:\Windows\system32
+76a60000 kernel32.dll       6.1.7601.18409     C:\Windows\system32
+76b40000 RPCRT4.dll         6.1.7601.18532     C:\Windows\system32
+76bf0000 SHLWAPI.dll        6.1.7601.17514     C:\Windows\system32
+76e90000 MSCTF.dll          6.1.7600.16385     C:\Windows\system32
+76f60000 ole32.dll          6.1.7601.17514     C:\Windows\system32
+770c0000 ntdll.dll          6.1.7601.18247     C:\Windows\SYSTEM32
+77200000 NSI.dll            6.1.7600.16385     C:\Windows\system32
+77210000 sechost.dll        6.1.7600.16385     C:\Windows\SYSTEM32
+77240000 WS2_32.dll         6.1.7601.17514     C:\Windows\system32
+77280000 WLDAP32.dll        6.1.7601.17514     C:\Windows\system32
+772d0000 IMM32.DLL          6.1.7601.17514     C:\Windows\system32
+
+processes:
+000 Idle               0 0    0
+004 System             0 0    0
+110 smss.exe           0 0    0   normal C:\Windows\system32
+174 csrss.exe          0 0    0   normal C:\Windows\system32
+19c wininit.exe        0 0    0   high   C:\Windows\system32
+1a4 csrss.exe          1 174  83  normal C:\Windows\system32
+1c8 winlogon.exe       1 6    0   high   C:\Windows\system32
+204 services.exe       0 0    0   normal C:\Windows\system32
+20c lsass.exe          0 0    0   normal C:\Windows\system32
+214 lsm.exe            0 0    0   normal C:\Windows\system32
+270 svchost.exe        0 0    0   normal C:\Windows\system32
+2b0 SH4SER~1.EXE       0 0    0   normal C:\PROGRA~1\ENIGMA~1\SPYHUN~1
+2d8 svchost.exe        0 0    0   normal C:\Windows\system32
+334 svchost.exe        0 0    0   normal C:\Windows\System32
+360 svchost.exe        0 0    0   normal C:\Windows\System32
+37c svchost.exe        0 0    0   normal C:\Windows\system32
+39c svchost.exe        0 0    0   normal C:\Windows\system32
+420 svchost.exe        0 0    0   normal C:\Windows\system32
+4b4 svchost.exe        0 0    0   normal C:\Windows\system32
+52c spoolsv.exe        0 0    0   normal C:\Windows\System32
+548 svchost.exe        0 0    0   normal C:\Windows\system32
+5d4 ekrn.exe           0 0    0   normal C:\Program Files\ESET\ESET NOD32 Antivirus
+608 MNSFramework.exe   0 0    0   normal C:\Windows\system32
+630 mysqld.exe         0 0    0   normal C:\Program Files\OCS Inventory\Xampp\mysql\bin
+660 svchost.exe        0 0    0   normal C:\Windows\system32
+680 vmtoolsd.exe       0 0    0   high   C:\Program Files\VMware\VMware Tools
+498 TPAutoConnSvc.exe  0 0    0   normal C:\Program Files\VMware\VMware Tools
+56c svchost.exe        0 0    0   normal C:\Windows\system32
+594 dllhost.exe        0 0    0   normal C:\Windows\system32
+884 msdtc.exe          0 0    0   normal C:\Windows\System32
+a00 taskhost.exe       1 26   20  normal C:\Windows\system32
+a40 TPAutoConnect.exe  1 14   8   normal C:\Program Files\VMware\VMware Tools
+a54 conhost.exe        1 20   1   normal C:\Windows\system32
+a7c Dwm.exe            1 15   2   high   C:\Windows\system32
+a98 Explorer.EXE       1 648  384 normal C:\Windows
+b40 egui.exe           1 199  57  normal C:\Program Files\ESET\ESET NOD32 Antivirus
+b74 vmtoolsd.exe       1 54   26  normal C:\Program Files\VMware\VMware Tools
+b98 TSVNCache.exe      1 9    5   normal C:\Program Files\TortoiseSVN\bin
+ca4 SearchIndexer.exe  0 0    0   normal C:\Windows\system32
+d48 wmpnetwk.exe       0 0    0   normal C:\Program Files\Windows Media Player
+db8 svchost.exe        0 0    0   normal C:\Windows\system32
+d64 bds.exe            1 2680 873 normal C:\Program Files\Embarcadero\Studio\15.0\bin
+484 dexplore.exe       1 139  114 normal c:\Program Files\Common Files\Microsoft Shared\Help 9
+7f4 chrome.exe         1 140  57  normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+b54 chrome.exe         1 11   2   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+984 chrome.exe         1 4    1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+758 chrome.exe         1 4    1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+fac chrome.exe         1 4    1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+894 chrome.exe         1 4    1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+450 chrome.exe         1 4    1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+f04 chrome.exe         1 4    1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+a64 chrome.exe         1 4    1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+fe0 chrome.exe         1 4    1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+9d8 chrome.exe         1 4    1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+6d4 chrome.exe         1 4    1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+fe8 chrome.exe         1 4    1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+2a4 chrome.exe         1 4    1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+e8c chrome.exe         1 4    1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+86c chrome.exe         1 4    1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+f64 chrome.exe         1 4    1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+064 chrome.exe         1 4    1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+ec4 chrome.exe         1 4    1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+c44 chrome.exe         1 4    1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+f38 audiodg.exe        0 0    0
+238 RemoteDBServer.exe 1 159  104 normal C:\Apps\GestioneFS\Server Remote DB\Win32\Debug
+
+hardware:
++ Batteries
+  - Microsoft AC Adapter
+  - Microsoft Composite Battery
++ Bluetooth Radios
+  - Generic Bluetooth Adapter
+  - Microsoft Bluetooth Enumerator
++ Computer
+  - ACPI x86-based PC
++ Disk drives
+  - VMware, VMware Virtual S SCSI Disk Device
++ Display adapters
+  - VMware SVGA 3D (driver 7.14.1.5026)
++ DVD/CD-ROM drives
+  - NECVMWar VMware IDE CDR10 ATA Device
++ Floppy disk drives
+  - Floppy disk drive
++ Floppy drive controllers
+  - Standard floppy disk controller
++ Human Interface Devices
+  - USB Input Device
+  - USB Input Device
++ IDE ATA/ATAPI controllers
+  - ATA Channel 0
+  - ATA Channel 1
+  - Intel(R) 82371AB/EB PCI Bus Master IDE Controller
++ Keyboards
+  - Standard PS/2 Keyboard
++ Memory devices
+  - Memory Module
++ Mice and other pointing devices
+  - VMware Pointing Device (driver 12.5.2.0)
+  - VMware USB Pointing Device (driver 12.5.2.0)
+  - VMware USB Pointing Device (driver 12.5.2.0)
++ Monitors
+  - Generic Non-PnP Monitor
++ Network adapters
+  - Bluetooth Device (Personal Area Network)
+  - Bluetooth Device (RFCOMM Protocol TDI)
+  - Intel(R) PRO/1000 MT Network Connection
+  - Microsoft ISATAP Adapter
+  - Microsoft ISATAP Adapter #2
+  - Microsoft ISATAP Adapter #3
+  - Teredo Tunneling Pseudo-Interface
+  - WAN Miniport (IKEv2)
+  - WAN Miniport (IP)
+  - WAN Miniport (IPv6)
+  - WAN Miniport (L2TP)
+  - WAN Miniport (Network Monitor)
+  - WAN Miniport (PPPOE)
+  - WAN Miniport (PPTP)
+  - WAN Miniport (SSTP)
++ Ports (COM & LPT)
+  - Communications Port (COM1)
+  - Communications Port (COM2)
+  - Printer Port (LPT1)
++ Processors
+  - Intel(R) Core(TM) i7 CPU       Q 740  @ 1.73GHz
++ Sound, video and game controllers
+  - High Definition Audio Device
++ Storage controllers
+  - LSI Adapter, SAS 3000 series, 8-port with 1068 (driver 1.28.3.52)
++ Storage volume shadow copies
+  - Generic volume shadow copy
++ System devices
+  - ACPI Fixed Feature Button
+  - Composite Bus Enumerator
+  - Direct memory access controller
+  - EISA programmable interrupt controller
+  - File as Volume Driver
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - High Definition Audio Controller
+  - High precision event timer
+  - Intel 82371AB/EB PCI to ISA bridge (ISA mode)
+  - Intel 82443BX Pentium(R) II Processor to AGP Controller
+  - Intel 82443BX Pentium(R) II Processor to PCI Bridge
+  - Microsoft ACPI-Compliant System
+  - Microsoft System Management BIOS Driver
+  - Microsoft Virtual Drive Enumerator Driver
+  - Motherboard resources
+  - Motherboard resources
+  - PCI bus
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI standard PCI-to-PCI bridge
+  - Plug and Play Software Device Enumerator
+  - Printer Port Logical Interface
+  - Remote Desktop Device Redirector Bus
+  - System CMOS/real time clock
+  - System speaker
+  - System timer
+  - Terminal Server Keyboard Driver
+  - Terminal Server Mouse Driver
+  - UMBus Enumerator
+  - UMBus Root Bus Enumerator
+  - VMware VMCI Bus Device (driver 9.5.10.0)
+  - VMware VMCI Host Device (driver 9.5.10.0)
+  - Volume Manager
++ Universal Serial Bus controllers
+  - Generic USB Hub
+  - Standard Enhanced PCI to USB Host Controller
+  - Standard Universal PCI to USB Host Controller
+  - USB Composite Device
+  - USB Root Hub
+  - USB Root Hub
+
+cpu registers:
+eax = 02e06080
+ebx = ffffffff
+ecx = 00000000
+edx = 001c34c0
+esi = 04979c80
+edi = 02dd0680
+eip = 00a03880
+esp = 0012f31c
+ebp = 0012f3b8
+
+stack dump:
+0012f31c  80 38 a0 00 de fa ed 0e - 01 00 00 00 07 00 00 00  .8..............
+0012f32c  30 f3 12 00 80 38 a0 00 - 80 60 e0 02 ff ff ff ff  0....8...`......
+0012f33c  80 9c 97 04 80 06 dd 02 - b8 f3 12 00 4c f3 12 00  ............L...
+0012f34c  c4 f3 12 00 9c 98 40 00 - b8 f3 12 00 00 00 00 00  ......@.........
+0012f35c  00 00 00 00 ac ff e2 02 - 11 00 00 00 00 00 00 00  ................
+0012f36c  11 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+0012f37c  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+0012f38c  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+0012f39c  00 00 00 00 00 00 00 00 - b4 3c a0 00 11 00 00 00  .........<......
+0012f3ac  00 00 00 00 00 00 00 00 - 00 00 00 00 e4 f3 12 00  ................
+0012f3bc  d1 3e a0 00 e4 f3 12 00 - 04 f4 12 00 9c 98 40 00  .>............@.
+0012f3cc  e4 f3 12 00 04 9d 97 04 - 04 9d 97 04 00 b5 e0 02  ................
+0012f3dc  2c f4 12 00 0c 26 a5 00 - f8 f3 12 00 43 40 a0 00  ,....&......C@..
+0012f3ec  00 00 00 00 01 00 00 00 - 01 f4 12 00 2c f4 12 00  ............,...
+0012f3fc  3e 25 a5 00 00 00 00 00 - 10 f4 12 00 9c 98 40 00  >%............@.
+0012f40c  2c f4 12 00 34 f4 12 00 - 7b 9a 40 00 2c f4 12 00  ,...4...{.@.,...
+0012f41c  80 9c 97 04 3c b3 56 00 - 80 06 dd 02 00 00 00 00  ....<.V.........
+0012f42c  74 f4 12 00 76 4f a6 00 - 7c f4 12 00 9c 98 40 00  t...vO..|.....@.
+0012f43c  74 f4 12 00 00 00 00 00 - 00 00 00 00 00 00 00 00  t...............
+0012f44c  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+
+disassembling:
+[...]
+00a64f62       push    dword ptr fs:[eax]
+00a64f65       mov     fs:[eax], esp
+00a64f68 132   xor     ecx, ecx
+00a64f6a       mov     dl, 1
+00a64f6c       mov     eax, [$a46520]
+00a64f71     > call    -$12a8a ($a524ec)      ; FireDAC.Comp.Client.TFDCustomConnection.Create
+00a64f76       mov     [ebp-$c], eax
+00a64f79 133   lea     eax, [ebp-$10]
+00a64f7c       push    eax
+00a64f7d       lea     edx, [ebp-$1c]
+00a64f80       mov     eax, [ebp-4]
+[...]
+
+date/time          : 2014-11-14, 11:35:30, 308ms
+computer name      : XE7
+user name          : Admin <admin>
+registered owner   : Windows User
+operating system   : Windows 7 Service Pack 1 build 7601
+system language    : English
+system up time     : 3 hours 6 minutes
+program up time    : 458 milliseconds
+processor          : Intel(R) Core(TM) i7 CPU Q 740 @ 1.73GHz
+physical memory    : 146/2047 MB (free/total)
+free disk space    : (C:) 5,73 GB
+display mode       : 1920x1080, 32 bit
+process id         : $c60
+allocated memory   : 37,96 MB
+largest free block : 1,47 GB
+executable         : RemoteDBServer.exe
+exec. date/time    : 2014-11-14 11:35
+version            : 1.0.0.0
+compiled with      : Delphi XE7
+madExcept version  : 4.0.11
+callstack crc      : $16257516, $00f4fb1b, $00f4fb1b
+exception number   : 1
+exception class    : EConvertError
+exception message  : Format 'http://%s:%d/%s/' invalid or incompatible with argument.
+
+main thread ($404):
+00450b99 +019 RemoteDBServer.exe System.SysUtils          ConvertErrorFmt
+004535da +04e RemoteDBServer.exe System.SysUtils          FormatError
+00454307 +85f RemoteDBServer.exe System.SysUtils          WideFormatBuf
+0045361c +014 RemoteDBServer.exe System.SysUtils          FormatBuf
+004537b4 +064 RemoteDBServer.exe System.SysUtils          FmtStr
+0045372e +00e RemoteDBServer.exe System.SysUtils          Format
+00453713 +01b RemoteDBServer.exe System.SysUtils          Format
+00ae1455 +351 RemoteDBServer.exe ServerMainForm   212 +38 TfrmServer.FormCreate
+00683ca1 +031 RemoteDBServer.exe Vcl.Forms                TCustomForm.DoCreate
+006838a5 +011 RemoteDBServer.exe Vcl.Forms                TCustomForm.AfterConstruction
+00408bfd +01d RemoteDBServer.exe System          1202  +0 @AfterConstruction
+00683857 +19b RemoteDBServer.exe Vcl.Forms                TCustomForm.Create
+0068e63a +076 RemoteDBServer.exe Vcl.Forms                TApplication.CreateForm
+00af2a29 +045 RemoteDBServer.exe RemoteDBServer    18  +4 initialization
+76aaee1a +010 kernel32.dll                                BaseThreadInitThunk
+
+thread $8a0:
+77106a42 +0a ntdll.dll     NtWaitForMultipleObjects
+76aaee1a +10 kernel32.dll  BaseThreadInitThunk
+
+thread $9cc:
+77106a72 +0a ntdll.dll     NtWaitForWorkViaWorkerFactory
+76aaee1a +10 kernel32.dll  BaseThreadInitThunk
+
+thread $2c8:
+77106a72 +0a ntdll.dll     NtWaitForWorkViaWorkerFactory
+76aaee1a +10 kernel32.dll  BaseThreadInitThunk
+
+modules:
+00400000 RemoteDBServer.exe 1.0.0.0            C:\Apps\GestioneFS\Server Remote DB\Win32\Debug
+64260000 FaultRep.dll       6.1.7601.17514     C:\Windows\system32
+6e150000 wsock32.dll        6.1.7600.16385     C:\Windows\system32
+6ec40000 msimg32.dll        6.1.7600.16385     C:\Windows\system32
+710c0000 winspool.drv       6.1.7601.17514     C:\Windows\system32
+73910000 wtsapi32.dll       6.1.7601.17514     C:\Windows\system32
+73950000 dwmapi.dll         6.1.7600.16385     C:\Windows\system32
+73b00000 ntmarta.dll        6.1.7600.16385     C:\Windows\system32
+73cb0000 gdiplus.dll        6.1.7601.18455     C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.7601.18455_none_72d576ad8665e853
+73e40000 uxtheme.dll        6.1.7600.16385     C:\Windows\system32
+73e80000 propsys.dll        7.0.7601.17514     C:\Windows\system32
+73ff0000 comctl32.dll       6.10.7601.17514    C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_41e6975e2bd6f2b2
+74560000 version.dll        6.1.7600.16385     C:\Windows\system32
+74f30000 SspiCli.dll        6.1.7601.18443     C:\Windows\system32
+74fa0000 CRYPTBASE.dll      6.1.7600.16385     C:\Windows\system32
+75020000 WINSTA.dll         6.1.7601.18540     C:\Windows\system32
+75190000 DEVOBJ.dll         6.1.7600.16385     C:\Windows\system32
+752f0000 KERNELBASE.dll     6.1.7601.18409     C:\Windows\system32
+753b0000 CFGMGR32.dll       6.1.7601.17514     C:\Windows\system32
+753e0000 shell32.dll        6.1.7601.18517     C:\Windows\system32
+76040000 USP10.dll          1.626.7601.18454   C:\Windows\system32
+760e0000 USER32.dll         6.1.7601.17514     C:\Windows\system32
+761b0000 msvcrt.dll         7.0.7601.17744     C:\Windows\system32
+76260000 CLBCatQ.DLL        2001.12.8530.16385 C:\Windows\system32
+76440000 SETUPAPI.dll       6.1.7601.17514     C:\Windows\system32
+76670000 comdlg32.dll       6.1.7601.17514     C:\Windows\system32
+766f0000 LPK.dll            6.1.7601.18177     C:\Windows\system32
+768e0000 GDI32.dll          6.1.7601.18577     C:\Windows\system32
+76930000 advapi32.dll       6.1.7601.18247     C:\Windows\system32
+769d0000 oleaut32.dll       6.1.7601.18640     C:\Windows\system32
+76a60000 kernel32.dll       6.1.7601.18409     C:\Windows\system32
+76b40000 RPCRT4.dll         6.1.7601.18532     C:\Windows\system32
+76bf0000 SHLWAPI.dll        6.1.7601.17514     C:\Windows\system32
+76e90000 MSCTF.dll          6.1.7600.16385     C:\Windows\system32
+76f60000 ole32.dll          6.1.7601.17514     C:\Windows\system32
+770c0000 ntdll.dll          6.1.7601.18247     C:\Windows\SYSTEM32
+77200000 NSI.dll            6.1.7600.16385     C:\Windows\system32
+77210000 sechost.dll        6.1.7600.16385     C:\Windows\SYSTEM32
+77240000 WS2_32.dll         6.1.7601.17514     C:\Windows\system32
+77280000 WLDAP32.dll        6.1.7601.17514     C:\Windows\system32
+772d0000 IMM32.DLL          6.1.7601.17514     C:\Windows\system32
+
+processes:
+000 Idle               0 0    0
+004 System             0 0    0
+110 smss.exe           0 0    0   normal C:\Windows\system32
+174 csrss.exe          0 0    0   normal C:\Windows\system32
+19c wininit.exe        0 0    0   high   C:\Windows\system32
+1a4 csrss.exe          1 174  83  normal C:\Windows\system32
+1c8 winlogon.exe       1 6    0   high   C:\Windows\system32
+204 services.exe       0 0    0   normal C:\Windows\system32
+20c lsass.exe          0 0    0   normal C:\Windows\system32
+214 lsm.exe            0 0    0   normal C:\Windows\system32
+270 svchost.exe        0 0    0   normal C:\Windows\system32
+2b0 SH4SER~1.EXE       0 0    0   normal C:\PROGRA~1\ENIGMA~1\SPYHUN~1
+2d8 svchost.exe        0 0    0   normal C:\Windows\system32
+334 svchost.exe        0 0    0   normal C:\Windows\System32
+360 svchost.exe        0 0    0   normal C:\Windows\System32
+37c svchost.exe        0 0    0   normal C:\Windows\system32
+39c svchost.exe        0 0    0   normal C:\Windows\system32
+420 svchost.exe        0 0    0   normal C:\Windows\system32
+4b4 svchost.exe        0 0    0   normal C:\Windows\system32
+52c spoolsv.exe        0 0    0   normal C:\Windows\System32
+548 svchost.exe        0 0    0   normal C:\Windows\system32
+5d4 ekrn.exe           0 0    0   normal C:\Program Files\ESET\ESET NOD32 Antivirus
+608 MNSFramework.exe   0 0    0   normal C:\Windows\system32
+630 mysqld.exe         0 0    0   normal C:\Program Files\OCS Inventory\Xampp\mysql\bin
+660 svchost.exe        0 0    0   normal C:\Windows\system32
+680 vmtoolsd.exe       0 0    0   high   C:\Program Files\VMware\VMware Tools
+498 TPAutoConnSvc.exe  0 0    0   normal C:\Program Files\VMware\VMware Tools
+56c svchost.exe        0 0    0   normal C:\Windows\system32
+594 dllhost.exe        0 0    0   normal C:\Windows\system32
+884 msdtc.exe          0 0    0   normal C:\Windows\System32
+a00 taskhost.exe       1 26   20  normal C:\Windows\system32
+a40 TPAutoConnect.exe  1 14   8   normal C:\Program Files\VMware\VMware Tools
+a54 conhost.exe        1 20   1   normal C:\Windows\system32
+a7c Dwm.exe            1 15   2   high   C:\Windows\system32
+a98 Explorer.EXE       1 649  387 normal C:\Windows
+b40 egui.exe           1 199  57  normal C:\Program Files\ESET\ESET NOD32 Antivirus
+b74 vmtoolsd.exe       1 54   26  normal C:\Program Files\VMware\VMware Tools
+b98 TSVNCache.exe      1 9    5   normal C:\Program Files\TortoiseSVN\bin
+ca4 SearchIndexer.exe  0 0    0   normal C:\Windows\system32
+d48 wmpnetwk.exe       0 0    0   normal C:\Program Files\Windows Media Player
+db8 svchost.exe        0 0    0   normal C:\Windows\system32
+d64 bds.exe            1 2680 877 normal C:\Program Files\Embarcadero\Studio\15.0\bin
+484 dexplore.exe       1 139  114 normal c:\Program Files\Common Files\Microsoft Shared\Help 9
+7f4 chrome.exe         1 140  57  normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+b54 chrome.exe         1 11   2   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+984 chrome.exe         1 4    1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+758 chrome.exe         1 4    1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+fac chrome.exe         1 4    1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+894 chrome.exe         1 4    1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+450 chrome.exe         1 4    1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+f04 chrome.exe         1 4    1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+a64 chrome.exe         1 4    1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+fe0 chrome.exe         1 4    1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+9d8 chrome.exe         1 4    1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+6d4 chrome.exe         1 4    1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+fe8 chrome.exe         1 4    1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+2a4 chrome.exe         1 4    1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+e8c chrome.exe         1 4    1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+86c chrome.exe         1 4    1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+f64 chrome.exe         1 4    1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+064 chrome.exe         1 4    1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+ec4 chrome.exe         1 4    1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+c44 chrome.exe         1 4    1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+f38 audiodg.exe        0 0    0
+c60 RemoteDBServer.exe 1 136  73  normal C:\Apps\GestioneFS\Server Remote DB\Win32\Debug
+
+hardware:
++ Batteries
+  - Microsoft AC Adapter
+  - Microsoft Composite Battery
++ Bluetooth Radios
+  - Generic Bluetooth Adapter
+  - Microsoft Bluetooth Enumerator
++ Computer
+  - ACPI x86-based PC
++ Disk drives
+  - VMware, VMware Virtual S SCSI Disk Device
++ Display adapters
+  - VMware SVGA 3D (driver 7.14.1.5026)
++ DVD/CD-ROM drives
+  - NECVMWar VMware IDE CDR10 ATA Device
++ Floppy disk drives
+  - Floppy disk drive
++ Floppy drive controllers
+  - Standard floppy disk controller
++ Human Interface Devices
+  - USB Input Device
+  - USB Input Device
++ IDE ATA/ATAPI controllers
+  - ATA Channel 0
+  - ATA Channel 1
+  - Intel(R) 82371AB/EB PCI Bus Master IDE Controller
++ Keyboards
+  - Standard PS/2 Keyboard
++ Memory devices
+  - Memory Module
++ Mice and other pointing devices
+  - VMware Pointing Device (driver 12.5.2.0)
+  - VMware USB Pointing Device (driver 12.5.2.0)
+  - VMware USB Pointing Device (driver 12.5.2.0)
++ Monitors
+  - Generic Non-PnP Monitor
++ Network adapters
+  - Bluetooth Device (Personal Area Network)
+  - Bluetooth Device (RFCOMM Protocol TDI)
+  - Intel(R) PRO/1000 MT Network Connection
+  - Microsoft ISATAP Adapter
+  - Microsoft ISATAP Adapter #2
+  - Microsoft ISATAP Adapter #3
+  - Teredo Tunneling Pseudo-Interface
+  - WAN Miniport (IKEv2)
+  - WAN Miniport (IP)
+  - WAN Miniport (IPv6)
+  - WAN Miniport (L2TP)
+  - WAN Miniport (Network Monitor)
+  - WAN Miniport (PPPOE)
+  - WAN Miniport (PPTP)
+  - WAN Miniport (SSTP)
++ Ports (COM & LPT)
+  - Communications Port (COM1)
+  - Communications Port (COM2)
+  - Printer Port (LPT1)
++ Processors
+  - Intel(R) Core(TM) i7 CPU       Q 740  @ 1.73GHz
++ Sound, video and game controllers
+  - High Definition Audio Device
++ Storage controllers
+  - LSI Adapter, SAS 3000 series, 8-port with 1068 (driver 1.28.3.52)
++ Storage volume shadow copies
+  - Generic volume shadow copy
++ System devices
+  - ACPI Fixed Feature Button
+  - Composite Bus Enumerator
+  - Direct memory access controller
+  - EISA programmable interrupt controller
+  - File as Volume Driver
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - High Definition Audio Controller
+  - High precision event timer
+  - Intel 82371AB/EB PCI to ISA bridge (ISA mode)
+  - Intel 82443BX Pentium(R) II Processor to AGP Controller
+  - Intel 82443BX Pentium(R) II Processor to PCI Bridge
+  - Microsoft ACPI-Compliant System
+  - Microsoft System Management BIOS Driver
+  - Microsoft Virtual Drive Enumerator Driver
+  - Motherboard resources
+  - Motherboard resources
+  - PCI bus
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI standard PCI-to-PCI bridge
+  - Plug and Play Software Device Enumerator
+  - Printer Port Logical Interface
+  - Remote Desktop Device Redirector Bus
+  - System CMOS/real time clock
+  - System speaker
+  - System timer
+  - Terminal Server Keyboard Driver
+  - Terminal Server Mouse Driver
+  - UMBus Enumerator
+  - UMBus Root Bus Enumerator
+  - VMware VMCI Bus Device (driver 9.5.10.0)
+  - VMware VMCI Host Device (driver 9.5.10.0)
+  - Volume Manager
++ Universal Serial Bus controllers
+  - Generic USB Hub
+  - Standard Enhanced PCI to USB Host Controller
+  - Standard Universal PCI to USB Host Controller
+  - USB Composite Device
+  - USB Root Hub
+  - USB Root Hub
+
+cpu registers:
+eax = 030457a0
+ebx = 004416c0
+ecx = 00000000
+edx = 001f34c0
+esi = 0012dc5c
+edi = 00000000
+eip = 00450b9e
+esp = 0012dbdc
+ebp = 0012dd8c
+
+stack dump:
+0012dbdc  9e 0b 45 00 de fa ed 0e - 01 00 00 00 07 00 00 00  ..E.............
+0012dbec  f0 db 12 00 9e 0b 45 00 - a0 57 04 03 c0 16 44 00  ......E..W....D.
+0012dbfc  5c dc 12 00 00 00 00 00 - 8c dd 12 00 0c dc 12 00  \...............
+0012dc0c  00 00 00 00 d4 16 ae 00 - 10 00 00 00 df 35 45 00  .............5E.
+0012dc1c  68 00 74 00 74 00 70 00 - 3a 00 2f 00 2f 00 25 00  h.t.t.p.:././.%.
+0012dc2c  73 00 3a 00 25 00 64 00 - 2f 00 25 00 73 00 2f 00  s.:.%.d./.%.s./.
+0012dc3c  00 00 ff ff 68 dc 12 00 - 5f 39 45 00 1f 3a 45 00  ....h..._9E..:E.
+0012dc4c  00 00 00 00 f4 16 ae 00 - e6 16 ae 00 00 00 00 00  ................
+0012dc5c  1c dc 12 00 0a 00 00 00 - 01 00 00 00 f4 16 ae 00  ................
+0012dc6c  ec 16 ae 00 0c 43 45 00 - 10 fe 12 00 9c 98 40 00  .....CE.......@.
+0012dc7c  8c dd 12 00 50 fe 12 00 - 38 fe 12 00 84 9e b0 00  ....P...8.......
+0012dc8c  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+0012dc9c  00 00 00 00 00 00 00 00 - 08 df 12 00 b4 48 cd 04  .............H..
+0012dcac  03 00 00 00 03 00 00 00 - 98 db 12 00 00 00 01 00  ................
+0012dcbc  6c 61 74 6e 64 66 6c 74 - 00 00 00 00 00 08 0c 00  latndflt........
+0012dccc  e8 dc 12 00 38 51 0f 76 - ca 06 08 00 7f 00 00 00  ....8Q.v........
+0012dcdc  01 00 00 00 00 00 00 00 - f4 dc 12 00 90 cd 0f 76  ...............v
+0012dcec  d8 98 14 76 48 dc 12 00 - 30 dd 12 00 4c 51 0f 76  ...vH...0...LQ.v
+0012dcfc  e8 50 0f 76 c4 8d 2e bc - 00 00 00 00 ac dd 12 00  .P.v............
+0012dd0c  7f 00 00 00 01 00 00 00 - 00 00 00 00 00 dd 12 00  ................
+
+disassembling:
+[...]
+00ae1441       mov     [ebp-$64], eax
+00ae1444       mov     byte ptr [ebp-$60], $11
+00ae1448       lea     edx, [ebp-$74]
+00ae144b       mov     ecx, 2
+00ae1450       mov     eax, $ae16d4
+00ae1455     > call    -$68dd62 ($4536f8)     ; System.SysUtils.Format
+00ae145a       mov     edx, [ebp-$5c]
+00ae145d       mov     eax, [ebp-4]
+00ae1460       mov     eax, [eax+$3c4]
+00ae1466       call    -$522b4b ($5be920)     ; Vcl.Controls.TControl.SetText
+00ae146b 213   push    0
+[...]
+
+date/time          : 2014-11-21, 13:38:47, 768ms
+computer name      : XE7-UPD1
+user name          : Admin <admin>
+registered owner   : Windows User
+operating system   : Windows 7 Service Pack 1 build 7601
+system language    : English
+system up time     : 29 minutes 37 seconds
+program up time    : 3 minutes 42 seconds
+processor          : Intel(R) Core(TM) i7 CPU Q 740 @ 1.73GHz
+physical memory    : 724/3071 MB (free/total)
+free disk space    : (C:) 8,98 GB
+display mode       : 1920x1200, 32 bit
+process id         : $1228
+allocated memory   : 54,70 MB
+largest free block : 1,30 GB
+executable         : RemoteDBServer.exe
+exec. date/time    : 2014-11-21 13:35
+version            : 1.0.0.0
+compiled with      : Delphi XE7
+madExcept version  : 4.0.11
+callstack crc      : $7e09ced1, $4b288782, $4b288782
+count              : 2
+exception number   : 2
+exception class    : EMSSQLNativeException
+exception message  : Timeout expired.
+
+main thread ($a30):
+009c9f95 +119 RemoteDBServer.exe FireDAC.Stan.Error              FDException
+00ab5d66 +27a RemoteDBServer.exe FireDAC.Phys.ODBCWrapper        TODBCHandle.ProcessError
+00ab5de3 +00b RemoteDBServer.exe FireDAC.Phys.ODBCWrapper        TODBCHandle.Check
+00ab7519 +12d RemoteDBServer.exe FireDAC.Phys.ODBCWrapper        TODBCConnection.DriverConnect
+00ab73e2 +012 RemoteDBServer.exe FireDAC.Phys.ODBCWrapper        TODBCConnection.Connect
+00ac3a93 +123 RemoteDBServer.exe FireDAC.Phys.ODBCBase           TFDPhysODBCConnectionBase.InternalConnect
+00ad5ae3 +01b RemoteDBServer.exe FireDAC.Phys.MSSQL              TFDPhysMSSQLConnection.InternalConnect
+00a9b068 +028 RemoteDBServer.exe FireDAC.Phys                    TFDPhysConnection.ConnectBase
+00a9b121 +021 RemoteDBServer.exe FireDAC.Phys                    TFDPhysConnection.DoConnect
+00a9bc3d +1a1 RemoteDBServer.exe FireDAC.Phys                    TFDPhysConnection.Open
+00a5bfde +012 RemoteDBServer.exe FireDAC.Comp.Client             TFDCustomConnection.DoInternalLogin
+00a5c15b +07b RemoteDBServer.exe FireDAC.Comp.Client             TFDCustomConnection.DoLogin
+00a5cc90 +110 RemoteDBServer.exe FireDAC.Comp.Client             TFDCustomConnection.DoConnect
+0082fd3d +039 RemoteDBServer.exe Data.DB                         TCustomConnection.SetConnected
+00a5caf9 +035 RemoteDBServer.exe FireDAC.Comp.Client             TFDCustomConnection.SetConnected
+00a6cb1e +01a RemoteDBServer.exe Aurelius.Drivers.FireDac 192 +2 TFireDacConnectionAdapter.Connect
+00ae1d0a +062 RemoteDBServer.exe ServerMainForm           256 +3 TfrmServer.StartServer
+00ae0e7f +00f RemoteDBServer.exe ServerMainForm           134 +1 TfrmServer.aStartExecute
+005434e3 +00f RemoteDBServer.exe System.Classes                  TBasicAction.Execute
+005a834e +086 RemoteDBServer.exe Vcl.ActnList                    TCustomAction.Execute
+00543367 +013 RemoteDBServer.exe System.Classes                  TBasicActionLink.Execute
+005c07bc +05c RemoteDBServer.exe Vcl.Controls                    TControl.Click
+005deaf6 +01e RemoteDBServer.exe Vcl.StdCtrls                    TCustomButton.Click
+005df604 +010 RemoteDBServer.exe Vcl.StdCtrls                    TCustomButton.CNCommand
+005c0265 +2bd RemoteDBServer.exe Vcl.Controls                    TControl.WndProc
+005c4d32 +5ce RemoteDBServer.exe Vcl.Controls                    TWinControl.WndProc
+005de7a0 +06c RemoteDBServer.exe Vcl.StdCtrls                    TButtonControl.WndProc
+005bfea0 +024 RemoteDBServer.exe Vcl.Controls                    TControl.Perform
+005c4e97 +023 RemoteDBServer.exe Vcl.Controls                    DoControlMsg
+005c591f +00b RemoteDBServer.exe Vcl.Controls                    TWinControl.WMCommand
+005c0265 +2bd RemoteDBServer.exe Vcl.Controls                    TControl.WndProc
+005c4d32 +5ce RemoteDBServer.exe Vcl.Controls                    TWinControl.WndProc
+005c436c +02c RemoteDBServer.exe Vcl.Controls                    TWinControl.MainWndProc
+005441d8 +014 RemoteDBServer.exe System.Classes                  StdWndProc
+77a3702b +02b ntdll.dll                                          KiUserCallbackDispatcher
+76c7557d +044 USER32.dll                                         SendMessageW
+76c71b52 +016 USER32.dll                                         CallWindowProcW
+005c4e42 +0e6 RemoteDBServer.exe Vcl.Controls                    TWinControl.DefaultHandler
+005c0c28 +010 RemoteDBServer.exe Vcl.Controls                    TControl.WMLButtonUp
+0069013b +087 RemoteDBServer.exe Vcl.Forms                       TApplication.DispatchAction
+005c0265 +2bd RemoteDBServer.exe Vcl.Controls                    TControl.WndProc
+005c4d32 +5ce RemoteDBServer.exe Vcl.Controls                    TWinControl.WndProc
+005de7a0 +06c RemoteDBServer.exe Vcl.StdCtrls                    TButtonControl.WndProc
+005c436c +02c RemoteDBServer.exe Vcl.Controls                    TWinControl.MainWndProc
+005441d8 +014 RemoteDBServer.exe System.Classes                  StdWndProc
+76c7cc6b +00a USER32.dll                                         DispatchMessageW
+0068e4b7 +0f3 RemoteDBServer.exe Vcl.Forms                       TApplication.ProcessMessage
+0068e4fa +00a RemoteDBServer.exe Vcl.Forms                       TApplication.HandleMessage
+0068e82d +0c9 RemoteDBServer.exe Vcl.Forms                       TApplication.Run
+00af2a35 +051 RemoteDBServer.exe RemoteDBServer            19 +5 initialization
+7718ee1a +010 kernel32.dll                                       BaseThreadInitThunk
+
+thread $c84:
+77a36a42 +0a ntdll.dll     NtWaitForMultipleObjects
+7718ee1a +10 kernel32.dll  BaseThreadInitThunk
+
+thread $1474:
+77a36a72 +0a ntdll.dll     NtWaitForWorkViaWorkerFactory
+7718ee1a +10 kernel32.dll  BaseThreadInitThunk
+
+thread $12ac:
+77a36a42 +00a ntdll.dll                    NtWaitForMultipleObjects
+004ace85 +00d RemoteDBServer.exe madExcept CallThreadProcSafe
+004aceea +032 RemoteDBServer.exe madExcept ThreadExceptFrame
+7718ee1a +010 kernel32.dll                 BaseThreadInitThunk
+>> created by main thread ($a30) at:
+74022713 +24f netbios.dll                  Netbios
+
+thread $1048:
+77a36a72 +0a ntdll.dll     NtWaitForWorkViaWorkerFactory
+7718ee1a +10 kernel32.dll  BaseThreadInitThunk
+
+modules:
+00400000 RemoteDBServer.exe   1.0.0.0            C:\Apps\GestioneFS\Server Remote DB\Win32\Debug
+5b5f0000 FaultRep.dll         6.1.7601.17514     C:\Windows\system32
+5ba50000 odbcint.dll          6.1.7600.16385     C:\Windows\system32
+5ba90000 odbc32.dll           6.1.7601.17514     C:\Windows\system32
+5fb90000 sqlncli11.dll        2011.110.2100.60   C:\Windows\system32
+6aba0000 httpapi.dll          6.1.7601.17514     C:\Windows\system32
+6c750000 wsock32.dll          6.1.7600.16385     C:\Windows\system32
+6e400000 winspool.drv         6.1.7601.17514     C:\Windows\system32
+6e7d0000 rasadhlp.dll         6.1.7600.16385     C:\Windows\system32
+71830000 MSVCR100.dll         10.0.40219.325     C:\Windows\system32
+72430000 msimg32.dll          6.1.7600.16385     C:\Windows\system32
+72690000 fwpuclnt.dll         6.1.7601.18283     C:\Windows\System32
+72860000 RESUTILS.DLL         6.1.7601.17514     C:\Windows\system32
+72880000 CLUSAPI.DLL          6.1.7601.17514     C:\Windows\system32
+734a0000 odbccp32.dll         6.1.7601.17632     C:\Windows\system32
+73b40000 WINNSI.DLL           6.1.7600.16385     C:\Windows\system32
+73b60000 IPHLPAPI.DLL         6.1.7601.17514     C:\Windows\system32
+73fd0000 wkscli.dll           6.1.7601.17514     C:\Windows\system32
+73fe0000 netutils.dll         6.1.7601.17514     C:\Windows\system32
+73ff0000 NETAPI32.dll         6.1.7601.17887     C:\Windows\system32
+74020000 netbios.dll          6.1.7600.16385     C:\Windows\system32
+74220000 wtsapi32.dll         6.1.7601.17514     C:\Windows\system32
+74480000 dwmapi.dll           6.1.7600.16385     C:\Windows\system32
+745e0000 gdiplus.dll          6.1.7601.18455     C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.7601.18455_none_72d576ad8665e853
+74770000 uxtheme.dll          6.1.7600.16385     C:\Windows\system32
+747b0000 propsys.dll          7.0.7601.17514     C:\Windows\system32
+748f0000 ntmarta.dll          6.1.7600.16385     C:\Windows\system32
+74920000 comctl32.dll         6.10.7601.17514    C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_41e6975e2bd6f2b2
+74e90000 version.dll          6.1.7600.16385     C:\Windows\system32
+74f20000 wshtcpip.dll         6.1.7600.16385     C:\Windows\System32
+74fa0000 pcwum.dll            6.1.7600.16385     C:\Windows\system32
+75090000 credssp.dll          6.1.7601.18606     C:\Windows\system32
+750d0000 bcryptprimitives.dll 6.1.7600.16385     C:\Windows\system32
+75200000 schannel.DLL         6.1.7601.18606     C:\Windows\system32
+75240000 LOGONCLI.DLL         6.1.7601.17514     C:\Windows\system32
+75270000 DNSAPI.dll           6.1.7601.17570     C:\Windows\system32
+75350000 msv1_0.DLL           6.1.7601.18606     C:\Windows\system32
+753a0000 wship6.dll           6.1.7600.16385     C:\Windows\System32
+753b0000 mswsock.dll          6.1.7601.18254     C:\Windows\system32
+75410000 kerberos.DLL         6.1.7601.18658     C:\Windows\system32
+75500000 bcrypt.dll           6.1.7600.16385     C:\Windows\system32
+75520000 ncrypt.dll           6.1.7601.18606     C:\Windows\system32
+755e0000 srvcli.dll           6.1.7601.17514     C:\Windows\system32
+75600000 cryptdll.dll         6.1.7600.16385     C:\Windows\system32
+75670000 secur32.dll          6.1.7601.18443     C:\Windows\system32
+75860000 SspiCli.dll          6.1.7601.18443     C:\Windows\system32
+758d0000 CRYPTBASE.dll        6.1.7600.16385     C:\Windows\system32
+75950000 WINSTA.dll           6.1.7601.18540     C:\Windows\system32
+759e0000 MSASN1.dll           6.1.7601.17514     C:\Windows\system32
+75a10000 crypt32.dll          6.1.7601.18526     C:\Windows\system32
+75b40000 DEVOBJ.dll           6.1.7600.16385     C:\Windows\system32
+75b60000 WINTRUST.dll         6.1.7601.18526     C:\Windows\system32
+75b90000 CFGMGR32.dll         6.1.7601.17514     C:\Windows\system32
+75be0000 KERNELBASE.dll       6.1.7601.18409     C:\Windows\system32
+75d20000 SETUPAPI.dll         6.1.7601.17514     C:\Windows\system32
+75ec0000 shell32.dll          6.1.7601.18517     C:\Windows\system32
+76b10000 comdlg32.dll         6.1.7601.17514     C:\Windows\system32
+76b90000 MSCTF.dll            6.1.7600.16385     C:\Windows\system32
+76c60000 USER32.dll           6.1.7601.17514     C:\Windows\system32
+76d30000 IMM32.DLL            6.1.7601.17514     C:\Windows\system32
+76f30000 CLBCatQ.DLL          2001.12.8530.16385 C:\Windows\system32
+77140000 kernel32.dll         6.1.7601.18409     C:\Windows\system32
+77220000 advapi32.dll         6.1.7601.18247     C:\Windows\system32
+772c0000 GDI32.dll            6.1.7601.18577     C:\Windows\system32
+77310000 WS2_32.dll           6.1.7601.17514     C:\Windows\system32
+77350000 SHLWAPI.dll          6.1.7601.17514     C:\Windows\system32
+773b0000 oleaut32.dll         6.1.7601.18640     C:\Windows\system32
+77680000 msvcrt.dll           7.0.7601.17744     C:\Windows\system32
+77790000 WLDAP32.dll          6.1.7601.17514     C:\Windows\system32
+777e0000 ole32.dll            6.1.7601.17514     C:\Windows\system32
+77940000 RPCRT4.dll           6.1.7601.18532     C:\Windows\system32
+779f0000 ntdll.dll            6.1.7601.18247     C:\Windows\SYSTEM32
+77b30000 psapi.dll            6.1.7600.16385     C:\Windows\system32
+77b40000 LPK.dll              6.1.7601.18177     C:\Windows\system32
+77b50000 sechost.dll          6.1.7600.16385     C:\Windows\SYSTEM32
+77b70000 USP10.dll            1.626.7601.18454   C:\Windows\system32
+77c10000 NSI.dll              6.1.7600.16385     C:\Windows\system32
+
+processes:
+0000 Idle               0 0    0
+0004 System             0 0    0
+0110 smss.exe           0 0    0   normal C:\Windows\system32
+016c csrss.exe          0 0    0   normal C:\Windows\system32
+01a0 wininit.exe        0 0    0   high   C:\Windows\system32
+01a8 csrss.exe          1 174  83  normal C:\Windows\system32
+01cc winlogon.exe       1 6    0   high   C:\Windows\system32
+020c services.exe       0 0    0   normal C:\Windows\system32
+0214 lsass.exe          0 0    0   normal C:\Windows\system32
+021c lsm.exe            0 0    0   normal C:\Windows\system32
+0288 svchost.exe        0 0    0   normal C:\Windows\system32
+02c4 SH4SER~1.EXE       0 0    0   normal C:\PROGRA~1\ENIGMA~1\SPYHUN~1
+02e0 svchost.exe        0 0    0   normal C:\Windows\system32
+0330 svchost.exe        0 0    0   normal C:\Windows\System32
+0370 svchost.exe        0 0    0   normal C:\Windows\System32
+0394 svchost.exe        0 0    0   normal C:\Windows\system32
+03b4 svchost.exe        0 0    0   normal C:\Windows\system32
+0430 svchost.exe        0 0    0   normal C:\Windows\system32
+04c4 svchost.exe        0 0    0   normal C:\Windows\system32
+0584 spoolsv.exe        0 0    0   normal C:\Windows\System32
+058c Dwm.exe            1 14   2   high   C:\Windows\system32
+0594 taskhost.exe       1 24   19  normal C:\Windows\system32
+05c8 Explorer.EXE       1 528  337 normal C:\Windows
+05e8 svchost.exe        0 0    0   normal C:\Windows\system32
+06b0 ekrn.exe           0 0    0   normal C:\Program Files\ESET\ESET NOD32 Antivirus
+06f4 egui.exe           1 173  56  normal C:\Program Files\ESET\ESET NOD32 Antivirus
+0750 ibguard.exe        0 0    0   normal C:\Program Files\Embarcadero\Studio\15.0\InterBaseXE3\bin
+0764 vmtoolsd.exe       1 53   24  normal C:\Program Files\VMware\VMware Tools
+076c TSVNCache.exe      1 9    5   normal C:\Program Files\TortoiseSVN\bin
+0790 MNSFramework.exe   0 0    0   normal C:\Windows\system32
+07cc mysqld.exe         0 0    0   normal C:\Program Files\OCS Inventory\Xampp\mysql\bin
+011c svchost.exe        0 0    0   normal C:\Windows\system32
+0218 vmtoolsd.exe       0 0    0   high   C:\Program Files\VMware\VMware Tools
+0944 SearchIndexer.exe  0 0    0   normal C:\Windows\system32
+0964 ibserver.exe       0 0    0   normal C:\Program Files\Embarcadero\Studio\15.0\InterBaseXE3\bin
+09dc TPAutoConnSvc.exe  0 0    0   normal C:\Program Files\VMware\VMware Tools
+0a0c svchost.exe        0 0    0   normal C:\Windows\system32
+0a60 svchost.exe        0 0    0   normal C:\Windows\system32
+0a9c dllhost.exe        0 0    0   normal C:\Windows\system32
+0af8 TPAutoConnect.exe  1 14   8   normal C:\Program Files\VMware\VMware Tools
+0b0c conhost.exe        1 20   1   normal C:\Windows\system32
+0b40 wmpnetwk.exe       0 0    0   normal C:\Program Files\Windows Media Player
+0cc0 msdtc.exe          0 0    0   normal C:\Windows\System32
+0d88 bds.exe            1 2372 754 normal C:\Program Files\Embarcadero\Studio\15.0\bin
+0ec0 chrome.exe         1 96   62  normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+0840 chrome.exe         1 11   2   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+0f6c chrome.exe         1 4    1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+0fcc chrome.exe         1 5    1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+0fb0 chrome.exe         1 4    1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+0180 chrome.exe         1 4    1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+0fb4 chrome.exe         1 4    1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+02d8 chrome.exe         1 4    1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+06d0 chrome.exe         1 4    1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+0f2c chrome.exe         1 4    1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+08d0 chrome.exe         1 4    1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+0280 chrome.exe         1 4    1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+08a8 chrome.exe         1 4    1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+0880 chrome.exe         1 4    1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+08cc chrome.exe         1 4    1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+0ca0 chrome.exe         1 4    1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+0b48 chrome.exe         1 4    1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+0acc chrome.exe         1 4    1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+0538 chrome.exe         1 12   1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+0958 chrome.exe         1 4    1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+0980 chrome.exe         1 4    1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+0b1c chrome.exe         1 4    1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+0c0c chrome.exe         1 4    1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+0be8 chrome.exe         1 4    1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+0a44 chrome.exe         1 4    1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+0f64 chrome.exe         1 4    1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+0db0 chrome.exe         1 9    1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+05fc chrome.exe         1 5    1   normal C:\Users\Admin\AppData\Local\Google\Chrome\Application
+130c Adb.exe            1 4    2   normal C:\Users\Public\Documents\Embarcadero\Studio\15.0\PlatformSDKs\adt-bundle-windows-x86-20131030\sdk\platform-tools
+1228 RemoteDBServer.exe 1 159  104 normal C:\Apps\GestioneFS\Server Remote DB\Win32\Debug
+0b30 audiodg.exe        0 0    0
+
+hardware:
++ Batteries
+  - Microsoft AC Adapter
+  - Microsoft Composite Battery
++ Bluetooth Radios
+  - Generic Bluetooth Adapter
+  - Microsoft Bluetooth Enumerator
++ Computer
+  - ACPI x86-based PC
++ Disk drives
+  - VMware, VMware Virtual S SCSI Disk Device
++ Display adapters
+  - VMware SVGA 3D (driver 7.14.1.5026)
++ DVD/CD-ROM drives
+  - NECVMWar VMware IDE CDR10 ATA Device
++ Floppy disk drives
+  - Floppy disk drive
++ Floppy drive controllers
+  - Standard floppy disk controller
++ Human Interface Devices
+  - USB Input Device
+  - USB Input Device
++ IDE ATA/ATAPI controllers
+  - ATA Channel 0
+  - ATA Channel 1
+  - Intel(R) 82371AB/EB PCI Bus Master IDE Controller
++ Keyboards
+  - Standard PS/2 Keyboard
++ Memory devices
+  - Memory Module
+  - Memory Module
++ Mice and other pointing devices
+  - VMware Pointing Device (driver 12.5.2.0)
+  - VMware USB Pointing Device (driver 12.5.2.0)
+  - VMware USB Pointing Device (driver 12.5.2.0)
++ Monitors
+  - Generic Non-PnP Monitor
++ Network adapters
+  - Bluetooth Device (Personal Area Network)
+  - Bluetooth Device (RFCOMM Protocol TDI)
+  - Intel(R) PRO/1000 MT Network Connection
+  - Microsoft ISATAP Adapter
+  - Microsoft ISATAP Adapter #2
+  - Microsoft ISATAP Adapter #3
+  - Teredo Tunneling Pseudo-Interface
+  - WAN Miniport (IKEv2)
+  - WAN Miniport (IP)
+  - WAN Miniport (IPv6)
+  - WAN Miniport (L2TP)
+  - WAN Miniport (Network Monitor)
+  - WAN Miniport (PPPOE)
+  - WAN Miniport (PPTP)
+  - WAN Miniport (SSTP)
++ Ports (COM & LPT)
+  - Communications Port (COM1)
+  - Communications Port (COM2)
+  - Printer Port (LPT1)
++ Processors
+  - Intel(R) Core(TM) i7 CPU       Q 740  @ 1.73GHz
++ Sound, video and game controllers
+  - High Definition Audio Device
++ Storage controllers
+  - LSI Adapter, SAS 3000 series, 8-port with 1068 (driver 1.28.3.52)
++ Storage volume shadow copies
+  - Generic volume shadow copy
+  - Generic volume shadow copy
++ System devices
+  - ACPI Fixed Feature Button
+  - Composite Bus Enumerator
+  - Direct memory access controller
+  - EISA programmable interrupt controller
+  - File as Volume Driver
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - Generic Bus
+  - High Definition Audio Controller
+  - High precision event timer
+  - Intel 82371AB/EB PCI to ISA bridge (ISA mode)
+  - Intel 82443BX Pentium(R) II Processor to AGP Controller
+  - Intel 82443BX Pentium(R) II Processor to PCI Bridge
+  - Microsoft ACPI-Compliant System
+  - Microsoft System Management BIOS Driver
+  - Microsoft Virtual Drive Enumerator Driver
+  - Motherboard resources
+  - Motherboard resources
+  - PCI bus
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI Express standard Root Port
+  - PCI standard PCI-to-PCI bridge
+  - Plug and Play Software Device Enumerator
+  - Printer Port Logical Interface
+  - Remote Desktop Device Redirector Bus
+  - System CMOS/real time clock
+  - System speaker
+  - System timer
+  - Terminal Server Keyboard Driver
+  - Terminal Server Mouse Driver
+  - UMBus Enumerator
+  - UMBus Root Bus Enumerator
+  - VMware VMCI Bus Device (driver 9.5.10.0)
+  - VMware VMCI Host Device (driver 9.5.10.0)
+  - Volume Manager
++ Universal Serial Bus controllers
+  - Generic USB Hub
+  - Standard Enhanced PCI to USB Host Controller
+  - Standard Universal PCI to USB Host Controller
+  - USB Composite Device
+  - USB Root Hub
+  - USB Root Hub
+
+cpu registers:
+eax = 03742a50
+ebx = 00000000
+ecx = 00000000
+edx = 00303268
+esi = 00a9245c
+edi = 03742a50
+eip = 009c9f9a
+esp = 0012f1d4
+ebp = 0012f22c
+
+stack dump:
+0012f1d4  9a 9f 9c 00 de fa ed 0e - 01 00 00 00 07 00 00 00  ................
+0012f1e4  e8 f1 12 00 9a 9f 9c 00 - 50 2a 74 03 00 00 00 00  ........P*t.....
+0012f1f4  5c 24 a9 00 50 2a 74 03 - 2c f2 12 00 04 f2 12 00  \$..P*t.,.......
+0012f204  34 f2 12 00 b8 98 40 00 - 2c f2 12 00 ec f2 12 00  4.....@.,.......
+0012f214  50 2a 74 03 70 f7 7a 03 - 50 2a 74 03 00 00 00 00  P*t.p.z.P*t.....
+0012f224  00 00 00 00 00 00 00 00 - 64 f2 12 00 6b 5d ab 00  ........d...k]..
+0012f234  40 f2 12 00 b8 98 40 00 - 64 f2 12 00 70 f2 12 00  @.....@.d...p...
+0012f244  b8 98 40 00 64 f2 12 00 - ec f2 12 00 8c 92 f9 02  ..@.d...........
+0012f254  70 f7 7a 03 00 00 00 00 - 00 00 00 00 70 f7 7a 03  p.z.........p.z.
+0012f264  ac f2 12 00 e8 5d ab 00 - 1e 75 ab 00 cc f2 12 00  .....]...u......
+0012f274  b8 98 40 00 ac f2 12 00 - ec f2 12 00 8c 92 f9 02  ..@.............
+0012f284  70 f7 7a 03 5b 00 00 00 - 62 93 f9 02 42 93 f9 02  p.z.[...b...B...
+0012f294  30 b5 40 00 00 00 00 00 - 20 41 02 03 00 00 00 00  0.@..... A......
+0012f2a4  8c 92 f9 02 00 00 00 00 - fc f2 12 00 e7 73 ab 00  .............s..
+0012f2b4  ec f2 12 00 00 00 00 00 - 80 06 fb 02 e8 25 d0 04  .............%..
+0012f2c4  9c 29 ad 00 98 3a ac 00 - 04 f3 12 00 b8 98 40 00  .)...:........@.
+0012f2d4  fc f2 12 00 80 06 fb 02 - 40 9f dd 04 40 a5 76 03  ........@...@.v.
+0012f2e4  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+0012f2f4  40 a5 76 03 00 00 00 00 - 20 f3 12 00 e8 5a ad 00  @.v..... ....Z..
+0012f304  28 f3 12 00 b8 98 40 00 - 20 f3 12 00 40 9f dd 04  (.....@. ...@...
+
+disassembling:
+[...]
+00a6cb12       jz      loc_a6cb21
+00a6cb14 192   mov     dl, 1
+00a6cb16       mov     eax, [ebp-4]
+00a6cb19       mov     eax, [eax+$14]
+00a6cb1c       mov     ecx, [eax]
+00a6cb1e     > call    dword ptr [ecx+$58]
+00a6cb21 193   pop     ecx
+00a6cb22       pop     ebp
+00a6cb23       ret
+
+date/time          : 2015-06-22, 15:38:23, 117ms
+computer name      : NFS2
+user name          : Giampiero <admin>
+registered owner   : giampiero@faenzastile.it
+operating system   : Windows 8 Tablet PC build 9200
+system language    : Italian
+system up time     : 1 day 22 hours
+program up time    : 46 seconds
+processors         : 4x Intel(R) Atom(TM) CPU Z3775 @ 1.46GHz
+physical memory    : 533/1948 MB (free/total)
+free disk space    : (C:) 3,13 GB (G:) 9,79 GB
+display mode       : 1536x864, 32 bit
+process id         : $d44
+allocated memory   : 46,19 MB
+largest free block : 1,40 GB
+command line       : "G:\Apps\GestioneFS\RemoteDB Server\Win32\Debug\RemoteDBClient.exe" -h 54.76.129.110 -p 80
+executable         : RemoteDBClient.exe
+exec. date/time    : 2015-06-22 15:37
+version            : 1.0.0.0
+compiled with      : Delphi XE7
+madExcept version  : 4.0.11
+callstack crc      : $415dc599, $c8b83daf, $c8b83daf
+exception number   : 1
+exception class    : ERemoteDBClientException
+exception message  : RemoteDB request error: http://localhost:2001/provaNFS/config 404.
+
+main thread ($1130):
+0070e01c +3d8 RemoteDBClient.exe RemoteDB.Client.Database 1098 +70 TRequestPerformer.Request
+0070d297 +05f RemoteDBClient.exe RemoteDB.Client.Database  779  +6 TRemoteDBDatabase.CheckConfig
+0070c5ba +012 RemoteDBClient.exe RemoteDB.Client.Database  608  +2 TRemoteDBDatabase.CheckConnect
+0070c4b4 +00c RemoteDBClient.exe RemoteDB.Client.Database  593  +1 TRemoteDBDatabase.Connect
+0070d8a1 +015 RemoteDBClient.exe RemoteDB.Client.Database  922  +2 TRemoteDBDatabase.SetConnected
+00710735 +05d RemoteDBClient.exe ClientMainForm             75  +4 TfmClientMain.Connect
+00710647 +00f RemoteDBClient.exe ClientMainForm             53  +1 TfmClientMain.btConnectClick
+005a2bd7 +073 RemoteDBClient.exe Vcl.Controls                      TControl.Click
+005bdd76 +01e RemoteDBClient.exe Vcl.StdCtrls                      TCustomButton.Click
+005be884 +010 RemoteDBClient.exe Vcl.StdCtrls                      TCustomButton.CNCommand
+005a2669 +2bd RemoteDBClient.exe Vcl.Controls                      TControl.WndProc
+005a7136 +5ce RemoteDBClient.exe Vcl.Controls                      TWinControl.WndProc
+005bda20 +06c RemoteDBClient.exe Vcl.StdCtrls                      TButtonControl.WndProc
+005a22a4 +024 RemoteDBClient.exe Vcl.Controls                      TControl.Perform
+005a729b +023 RemoteDBClient.exe Vcl.Controls                      DoControlMsg
+005a7d23 +00b RemoteDBClient.exe Vcl.Controls                      TWinControl.WMCommand
+005a2669 +2bd RemoteDBClient.exe Vcl.Controls                      TControl.WndProc
+005a7136 +5ce RemoteDBClient.exe Vcl.Controls                      TWinControl.WndProc
+005a6770 +02c RemoteDBClient.exe Vcl.Controls                      TWinControl.MainWndProc
+00533114 +014 RemoteDBClient.exe System.Classes                    StdWndProc
+77dad2a4 +034 ntdll.dll                                            KiUserCallbackDispatcher
+77a6d3ca +0ea user32.dll                                           SendMessageW
+77a6d003 +073 user32.dll                                           CallWindowProcW
+005a7246 +0e6 RemoteDBClient.exe Vcl.Controls                      TWinControl.DefaultHandler
+005a302c +010 RemoteDBClient.exe Vcl.Controls                      TControl.WMLButtonUp
+005a2669 +2bd RemoteDBClient.exe Vcl.Controls                      TControl.WndProc
+005a7136 +5ce RemoteDBClient.exe Vcl.Controls                      TWinControl.WndProc
+005bda20 +06c RemoteDBClient.exe Vcl.StdCtrls                      TButtonControl.WndProc
+005a6770 +02c RemoteDBClient.exe Vcl.Controls                      TWinControl.MainWndProc
+00533114 +014 RemoteDBClient.exe System.Classes                    StdWndProc
+77a68c1b +00b user32.dll                                           DispatchMessageW
+0065fb17 +0f3 RemoteDBClient.exe Vcl.Forms                         TApplication.ProcessMessage
+0065fb5a +00a RemoteDBClient.exe Vcl.Forms                         TApplication.HandleMessage
+0065fe8d +0c9 RemoteDBClient.exe Vcl.Forms                         TApplication.Run
+007199a9 +049 RemoteDBClient.exe RemoteDBClient             14  +4 initialization
+77794196 +026 KERNEL32.DLL                                         BaseThreadInitThunk
+
+thread $394:
+77da9955 +05 ntdll.dll     NtWaitForWorkViaWorkerFactory
+77794196 +26 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $ba0:
+77da9955 +05 ntdll.dll     NtWaitForWorkViaWorkerFactory
+77794196 +26 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $1350:
+77da9955 +05 ntdll.dll     NtWaitForWorkViaWorkerFactory
+77794196 +26 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $120:
+77dabfb5 +05 ntdll.dll       NtDelayExecution
+756b2b39 +99 KERNELBASE.dll  SleepEx
+756b104a +0a KERNELBASE.dll  Sleep
+77794196 +26 KERNEL32.DLL    BaseThreadInitThunk
+
+thread $1700:
+77da9955 +05 ntdll.dll     NtWaitForWorkViaWorkerFactory
+77794196 +26 KERNEL32.DLL  BaseThreadInitThunk
+
